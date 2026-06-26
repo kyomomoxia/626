@@ -43,7 +43,7 @@ export async function onRequest(context) {
     }
 
     // 4. 按月动态白名单（老板每月维护区，目前只留6、7月）
-    const activeMonths = ["202606", "202607"];
+    const activeMonths = ["202606", "202607", "202608", "202609"];
 
     const monthMatch = url.pathname.match(/^\/(\d{6})\.json$/);
 

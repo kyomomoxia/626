@@ -18,16 +18,14 @@ export async function onRequest(context) {
 
     // =================================================================
     // 👑 【老板唯一维护区：黑名单控制】
-    // 👉 规则：因为现在是全自动计算一年期了，你不需要再每个月添加白名单！
     // 只有当某个月份被严重泄露时，你才把它填进 blacklist 里进行“人工封杀”。
-    // 比如：const blacklist = ["202606"]; 
     // =================================================================
     const blacklist = [];
 
     // 提取客户端网址里携带的令牌
     let userToken = url.searchParams.get("token");
 
-    // 💡【老客户兼容补丁】：为了今天已经发出去的 30 个客户，给他们自动打上 202607 标签。
+    // 💡【老客户兼容补丁】：为了今天已经发出去的 30 个客户，给他们自动打上 202607 标签
     if (!userToken) {
         userToken = "202607";
     }
@@ -37,48 +35,41 @@ export async function onRequest(context) {
     // -----------------------------------------------------------------
     function isTokenValid(token) {
         if (!token || token.length !== 6) return false;
-        if (blacklist.includes(token)) return false; // 命中黑名单，直接死刑
+        if (blacklist.includes(token)) return false; 
 
         const tokenYear = parseInt(token.substring(0, 4), 10);
         const tokenMonth = parseInt(token.substring(4, 6), 10);
         if (isNaN(tokenYear) || isNaN(tokenMonth)) return false;
 
-        // 获取当前北京时间 (UTC+8) 的真实年月
+        // 获取当前北京时间的真实年月
         const now = new Date(new Date().getTime() + 8 * 60 * 60 * 1000);
         const currentYear = now.getUTCFullYear();
-        const currentMonth = now.getUTCMonth() + 1; // 1-12
+        const currentMonth = now.getUTCMonth() + 1; 
 
-        // 把年月转换成“绝对月数”，方便做减法
         const tokenAbsolute = tokenYear * 12 + tokenMonth;
         const currentAbsolute = currentYear * 12 + currentMonth;
-
         const diff = currentAbsolute - tokenAbsolute;
 
-        // 【安全规则 1：防白嫖猜未来】
-        // diff < -1：这意味着允许你“提前1个月”发卡（比如现在6月，发7月卡 diff = -1，合法）。
-        // 如果别人今天猜 202608 (diff = -2) 或者 202803，系统直接拦截！
+        // 防白嫖猜未来：只允许提前 1 个月发卡
         if (diff < -1) return false;
 
-        // 【安全规则 2：满一年自动报废】
-        // diff >= 12：比如房卡 202607，当前时间到了 202707。
-        // 202707 - 202607 = 12。只要差值到达 12，瞬间自动断联报废！
+        // 满一年自动报废
         if (diff >= 12) return false;
 
         return true;
     }
 
-    // 鉴定当前用户的令牌是否合法
     const hasValidAccess = isTokenValid(userToken);
 
     // -----------------------------------------------------------------
-    // 核心安全机制一：底层主线文件的最高防线 (兼容 902.JSON 和 vip_core.json)
+    // 核心安全机制一：底层主线文件的最高防线 (修复制版：最稳定的放行)
     // -----------------------------------------------------------------
-    if (url.pathname.toUpperCase() === "/902.JSON" || url.pathname === "/vip_core.json") {
+    if (url.pathname.toUpperCase() === "/902.JSON") {
         if (hasValidAccess) {
-            const secretUrl = new URL(request.url);
-            secretUrl.pathname = "/902.JSON";
-            return context.env.ASSETS.fetch(secretUrl);
+            // 令牌有效，完美原路放行，保证电视盒子的所有请求头都不丢失！
+            return context.next();
         } else {
+            // 令牌失效或没权限，直接发回空壳数据切断它
             return new Response(JSON.stringify({ "sites": [] }), {
                 headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" }
             });
@@ -118,7 +109,7 @@ export async function onRequest(context) {
     }
 
     // -----------------------------------------------------------------
-    // 核心安全机制三：全自动多仓生成器（含准入判定）
+    // 核心安全机制三：全自动多仓生成器
     // -----------------------------------------------------------------
     const monthMatch = url.pathname.match(/^\/(\d{6})\.json$/);
 
@@ -128,7 +119,8 @@ export async function onRequest(context) {
         if (isTokenValid(reqMonth)) {
             const validConfig = {
                 "urls": [
-                    { "name": `💖 ${reqMonth} VIP专属主线 💖`, "url": `https://kyomomo.top/vip_core.json?token=${reqMonth}` },
+                    // 直接给 902.JSON 上令牌锁，简单粗暴最稳定！
+                    { "name": `💖 ${reqMonth} VIP专属主线 💖`, "url": `https://kyomomo.top/902.JSON?token=${reqMonth}` },
                     { "name": "专业影音收集一", "url": `https://kyomomo.top/line1.json?token=${reqMonth}` },
                     { "name": "专业影音收集二", "url": `https://kyomomo.top/line2.json?token=${reqMonth}` },
                     { "name": "专业影音收集三", "url": `https://kyomomo.top/line3.json?token=${reqMonth}` },

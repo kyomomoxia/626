@@ -3,77 +3,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💖专业影音💖 - 专属TVBox接口</title>
+    <title>💖专业影音💖 - 顶级专属极速接口</title>
+    
+    <!-- 引入外部好看的字体，提升排版高级感 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
-            background-color: #f4f7f6;
+        :root {
+            --primary-glow: #ff4b2b;
+            --secondary-glow: #ff416c;
+            --text-main: #ffffff;
+            --text-muted: #a0aec0;
+        }
+
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            /* 高级深邃的暗色渐变背景 */
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: var(--text-main);
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            overflow: hidden;
+            position: relative;
         }
-        .container {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-            max-width: 500px;
+
+        /* 动态背景光效，增加空间感 */
+        body::before, body::after {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: 0;
+            animation: float 10s infinite alternate ease-in-out;
+        }
+
+        body::before {
+            background: rgba(255, 65, 108, 0.2);
+            top: -10%;
+            left: -10%;
+        }
+
+        body::after {
+            background: rgba(139, 92, 246, 0.2);
+            bottom: -10%;
+            right: -10%;
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(30px, 50px) scale(1.2); }
+        }
+
+        /* 毛玻璃质感的卡片主容器 */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 50px 40px;
+            max-width: 540px;
             width: 90%;
             text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+            position: relative;
+            transform: translateY(0);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
         }
-        .logo {
-            font-size: 40px;
-            margin-bottom: 10px;
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
         }
-        h1 {
-            color: #333333;
-            font-size: 24px;
+
+        .icon-wrap {
+            font-size: 56px;
             margin-bottom: 20px;
+            display: inline-block;
+            background: linear-gradient(135deg, var(--secondary-glow), var(--primary-glow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 4px 12px rgba(255, 65, 108, 0.3));
         }
-        p {
-            color: #666666;
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+            background: linear-gradient(to right, #fff, #cbd5e1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
             font-size: 15px;
-            line-height: 1.6;
-            margin-bottom: 25px;
+            font-weight: 300;
+            margin-bottom: 35px;
+            letter-spacing: 1px;
         }
-        .link-box {
-            background-color: #eef2f5;
-            padding: 15px;
+
+        /* 高级 URL 复制框 */
+        .url-container {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 8px 8px 8px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .url-text {
+            font-family: monospace;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-right: 15px;
+        }
+
+        .copy-btn {
+            background: linear-gradient(135deg, var(--secondary-glow), var(--primary-glow));
+            color: white;
+            border: none;
+            padding: 12px 24px;
             border-radius: 8px;
-            font-size: 18px;
-            font-weight: bold;
-            color: #e74c3c;
-            word-break: break-all;
-            margin-bottom: 25px;
-            border: 1px dashed #bdc3c7;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            box-shadow: 0 4px 15px rgba(255, 65, 108, 0.3);
+            font-family: inherit;
         }
-        .footer {
+
+        .copy-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 65, 108, 0.5);
+        }
+
+        .copy-btn.success {
+            background: linear-gradient(135deg, #10b981, #059669);
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        /* 指南与特性标签 */
+        .guide-text {
+            color: #cbd5e1;
+            font-size: 14px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            padding: 0 10px;
+        }
+
+        .guide-text strong {
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .feature-tag {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 6px 14px;
+            border-radius: 20px;
             font-size: 12px;
-            color: #aaa;
-            margin-top: 20px;
+            color: var(--text-muted);
+            backdrop-filter: blur(10px);
+        }
+
+        footer {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.3);
+            margin-top: 10px;
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 480px) {
+            .glass-card { padding: 40px 20px; }
+            .url-container { flex-direction: column; padding: 15px; gap: 15px; }
+            .url-text { padding-right: 0; text-align: center; }
+            .copy-btn { width: 100%; }
+            h1 { font-size: 24px; }
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="logo">📺</div>
+    <div class="glass-card">
+        <div class="icon-wrap">🎬</div>
         <h1>💖专业影音💖 专属接口</h1>
-        <p>欢迎来到专业影音！<br>请将下方的专用线路链接复制，并填入影视仓、TVBox、OK影视等影视软件的“配置地址”中即可畅享全网影视。</p>
+        <p class="subtitle">全网至臻画质 · 边缘节点极速解析</p>
         
-        <div class="link-box">
-            https://kyomomo.top/index.json
+        <div class="url-container">
+            <div class="url-text" id="target-url">https://kyomomo.top/index.json</div>
+            <button class="copy-btn" id="copy-btn" onclick="copyToClipboard()">一键复制</button>
         </div>
         
-        <p>💡 <strong>温馨提示：</strong><br>本接口采用全新云端防封架构，测速极快，请放心使用！</p>
-        
-        <div class="footer">
-            © 2026 💖专业影音💖 All Rights Reserved.
+        <div class="guide-text">
+            <p>请复制上方专属线路链接，填入 <strong>影视仓、TVBox、OK影视</strong> 等影视软件的【配置地址】中，即可畅享全网影视内容。</p>
         </div>
+        
+        <div class="features">
+            <span class="feature-tag">🚀 全球加速</span>
+            <span class="feature-tag">🛡️ 智能防封锁架构</span>
+            <span class="feature-tag">💎 纯净免费无广告</span>
+        </div>
+        
+        <footer>
+            © 2026 💖专业影音💖 版权所有
+        </footer>
     </div>
 
+    <script>
+        function copyToClipboard() {
+            // 获取需要复制的链接文本
+            const urlText = document.getElementById('target-url').innerText;
+            const copyBtn = document.getElementById('copy-btn');
+            
+            // 尝试将文本写入剪贴板
+            navigator.clipboard.writeText(urlText).then(() => {
+                // 成功：改变按钮颜色和文字，不使用难看的 alert
+                const originalText = copyBtn.innerText;
+                copyBtn.innerText = '✅ 复制成功';
+                copyBtn.classList.add('success');
+                
+                // 2.5秒后恢复原样
+                setTimeout(() => {
+                    copyBtn.innerText = originalText;
+                    copyBtn.classList.remove('success');
+                }, 2500);
+                
+            }).catch(err => {
+                // 如果浏览器不支持，降级处理（仅在极老的设备上）
+                const textArea = document.createElement("textarea");
+                textArea.value = urlText;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    copyBtn.innerText = '✅ 复制成功';
+                    copyBtn.classList.add('success');
+                    setTimeout(() => {
+                        copyBtn.innerText = '一键复制';
+                        copyBtn.classList.remove('success');
+                    }, 2500);
+                } catch (e) {
+                    copyBtn.innerText = '❌ 复制失败，请手动长按复制';
+                }
+                document.body.removeChild(textArea);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// 终极全局智能路由脚本：支持网页拦截 + 16路隐形代理 + 按月全自动多仓生成
+// 终极全局智能路由脚本：支持网页拦截 + 16路洗白安全代理 + 按月全自动多仓
 export async function onRequest(context) {
     const request = context.request;
     const url = new URL(request.url);
@@ -12,13 +12,11 @@ export async function onRequest(context) {
                         (userAgent.includes("Mozilla/") && !userAgent.includes("okhttp"));
 
     if (isWebBrowser) {
-        // 如果是浏览器访问，管他敲的是 202607.json 还是 202708.json，统统给他展示高大上的引导网页！
         url.pathname = "/index.html"; 
         return context.env.ASSETS.fetch(url);
     }
 
-    // 3. 【核心黑科技一：16路隐形代理】
-    // 别人家的接口被你封装成了自己的域名！源挂了你只需要在这里修改网址，用户端全自动复活。
+    // 3. 【核心黑科技一：16路洗白隐形代理】
     const routes = {
         "/line1.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=1",
         "/line2.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=3",
@@ -32,36 +30,56 @@ export async function onRequest(context) {
         "/line10.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=12",
         "/line11.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=13",
         "/line12.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=15",
-        "/line13.json": "https://xn--ohqo134kjk的.v.nxog.top/apitv.php?id=16",
+        "/line13.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=16", // 已修复上一版AI手误多出的字
         "/line14.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=17",
         "/line15.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=18",
         "/line16.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=20"
     };
 
-    // 如果用户在盒子里点击了“收集一”（即访问了 line1.json）
     if (routes[url.pathname]) {
-        return fetch(routes[url.pathname], request); 
+        const targetUrl = routes[url.pathname];
+        try {
+            // 【洗白核心技】绝对不能传原 request！
+            // 剥离所有 Cloudflare 追踪头，只携带客户端的 User-Agent 重新发起纯净 GET
+            const upstreamResp = await fetch(targetUrl, {
+                method: "GET",
+                headers: {
+                    "User-Agent": request.headers.get("User-Agent") || "okhttp/4.12.0",
+                    "Accept": "*/*"
+                }
+            });
+
+            const content = await upstreamResp.text();
+            
+            // 拿到上游数据后，重新封包发给盒子，并强行贴上“允许跨域”标，防止播放器底层卡死
+            return new Response(content, {
+                status: upstreamResp.status,
+                headers: {
+                    "Content-Type": "application/json;charset=UTF-8",
+                    "Access-Control-Allow-Origin": "*"
+                }
+            });
+        } catch (err) {
+            return new Response(JSON.stringify({ error: `上游源站连接超时: ${err.message}` }), { 
+                status: 500,
+                headers: { "Content-Type": "application/json;charset=UTF-8" }
+            });
+        }
     }
 
-    // 4. 【核心黑科技二：按月全自动动态授权多仓】
-    // 👉 以后你只需要维护这个列表！写在这里的年月就有效。
-    // 比如 7 月到期了，你把 "202607" 删掉保存，7月的盒子就会立刻断开并提示联系续费！
-const activeMonths = [
-        "202607", "202608"
-    ];
+    // 4. 【核心黑科技二：按月动态多仓白名单】（切记目前只留6、7月）
+    const activeMonths = ["202606", "202607"];
 
-    // 自动抓取用户填写的网址里的月份，比如从 "/202607.json" 提取出 "202607"
     const monthMatch = url.pathname.match(/^\/(\d{6})\.json$/);
 
     if (monthMatch) {
         const requestMonth = monthMatch[1]; 
         
-        // 如果客户填写的月份在上面的白名单列表里（有效授权）
         if (activeMonths.includes(requestMonth)) {
             const validConfig = {
                 "urls": [
                     { "name": `💖 ${requestMonth} VIP专属主线 💖`, "url": "https://kyomomo.top/902.JSON" },
-                    { "name": "专业影音收集一", "url": "https://kyomomo.top/line1.json" },
+                    { "name": "专业影音收集一", "url": "https://kyomomo.联.top/line1.json" },
                     { "name": "专业影音收集二", "url": "https://kyomomo.top/line2.json" },
                     { "name": "专业影音收集三", "url": "https://kyomomo.top/line3.json" },
                     { "name": "专业影音收集四", "url": "https://kyomomo.top/line4.json" },
@@ -86,7 +104,6 @@ const activeMonths = [
                 }
             });
         } else {
-            // 如果客户填写的月份不在列表里（判定为过期）
             const expiredConfig = {
                 "urls": [
                     { "name": `⚠️ 您的 ${requestMonth} 授权已过期！`, "url": "https://kyomomo.top/empty.json" },
@@ -102,6 +119,5 @@ const activeMonths = [
         }
     }
 
-    // 5. 正常的底层访问（比如读取底层主文件 902.JSON），直接放行
     return context.next();
 }

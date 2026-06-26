@@ -15,7 +15,7 @@
     }
   ],
   "sites": [
-    {"key":"豆瓣2","name":"❤专业影音❤六月蝉鸣🐸","type":3,"api":"csp_Douban","searchable":0},
+    {"key":"豆瓣2","name":"❤专业影音❤毕业季📖","type":3,"api":"csp_Douban","searchable":0},
     {"key": "config", "name": "💾配置｜中心","type": 3,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/0df0dafe840912a9250167063b1f3cad.jpg;md5;dd19c67b72b708f567d94500d7d9ab4e","api": "csp_Config","searchable": 0},
     {"key":"配置中心","name":"💻配置｜中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
     {"key":"csp_woog","name":"🐮玩欧｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1aa78a7afa85d5ace98c1c57e6123f2c.jpg;md5;d29b7750dc6fc68cfbd5d40b1503d9d0","ext":{"site_urls":["https://woog.nxog.fun","https://woog.nxog.eu.org"],"url_key":"woog","threadinfo":{"chunksize":232,"threads":16}}},

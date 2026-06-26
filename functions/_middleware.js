@@ -1,13 +1,13 @@
-// 终极全局智能路由脚本：支持网页拦截 + 16路洗白安全代理 + 按月全自动多仓
+// 全局神级中间件：网页伪装拦截 + 16路302隐形弹射 + 按月全自动多仓白名单
 export async function onRequest(context) {
     const request = context.request;
     const url = new URL(request.url);
     
-    // 1. 获取访问者的“身份特征”
+    // 1. 获取特征
     const acceptHeader = request.headers.get("Accept") || "";
     const userAgent = request.headers.get("User-Agent") || "";
 
-    // 2. 判断是不是人类用的手机/电脑浏览器
+    // 2. 浏览器直接拦截，展示官方门面
     const isWebBrowser = acceptHeader.includes("text/html") || 
                         (userAgent.includes("Mozilla/") && !userAgent.includes("okhttp"));
 
@@ -16,7 +16,8 @@ export async function onRequest(context) {
         return context.env.ASSETS.fetch(url);
     }
 
-    // 3. 【核心黑科技一：16路洗白隐形代理】
+    // 3. 【黑科技核心：302 隐形弹射】
+    // 盒子访问 lineX.json 时，Cloudflare 不再亲自去抓数据，而是直接把盒子“弹射”给源站！
     const routes = {
         "/line1.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=1",
         "/line2.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=3",
@@ -30,44 +31,18 @@ export async function onRequest(context) {
         "/line10.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=12",
         "/line11.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=13",
         "/line12.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=15",
-        "/line13.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=16", // 已修复上一版AI手误多出的字
+        "/line13.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=16",
         "/line14.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=17",
         "/line15.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=18",
         "/line16.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=20"
     };
 
     if (routes[url.pathname]) {
-        const targetUrl = routes[url.pathname];
-        try {
-            // 【洗白核心技】绝对不能传原 request！
-            // 剥离所有 Cloudflare 追踪头，只携带客户端的 User-Agent 重新发起纯净 GET
-            const upstreamResp = await fetch(targetUrl, {
-                method: "GET",
-                headers: {
-                    "User-Agent": request.headers.get("User-Agent") || "okhttp/4.12.0",
-                    "Accept": "*/*"
-                }
-            });
-
-            const content = await upstreamResp.text();
-            
-            // 拿到上游数据后，重新封包发给盒子，并强行贴上“允许跨域”标，防止播放器底层卡死
-            return new Response(content, {
-                status: upstreamResp.status,
-                headers: {
-                    "Content-Type": "application/json;charset=UTF-8",
-                    "Access-Control-Allow-Origin": "*"
-                }
-            });
-        } catch (err) {
-            return new Response(JSON.stringify({ error: `上游源站连接超时: ${err.message}` }), { 
-                status: 500,
-                headers: { "Content-Type": "application/json;charset=UTF-8" }
-            });
-        }
+        // 302 重定向指令：让电视盒子的底层播放器自己去目标网址进货！
+        return Response.redirect(routes[url.pathname], 302);
     }
 
-    // 4. 【核心黑科技二：按月动态多仓白名单】（切记目前只留6、7月）
+    // 4. 按月动态白名单（老板每月维护区，目前只留6、7月）
     const activeMonths = ["202606", "202607"];
 
     const monthMatch = url.pathname.match(/^\/(\d{6})\.json$/);
@@ -79,7 +54,7 @@ export async function onRequest(context) {
             const validConfig = {
                 "urls": [
                     { "name": `💖 ${requestMonth} VIP专属主线 💖`, "url": "https://kyomomo.top/902.JSON" },
-                    { "name": "专业影音收集一", "url": "https://kyomomo.联.top/line1.json" },
+                    { "name": "专业影音收集一", "url": "https://kyomomo.top/line1.json" },
                     { "name": "专业影音收集二", "url": "https://kyomomo.top/line2.json" },
                     { "name": "专业影音收集三", "url": "https://kyomomo.top/line3.json" },
                     { "name": "专业影音收集四", "url": "https://kyomomo.top/line4.json" },
@@ -111,10 +86,7 @@ export async function onRequest(context) {
                 ]
             };
             return new Response(JSON.stringify(expiredConfig), {
-                headers: { 
-                    "Content-Type": "application/json;charset=UTF-8",
-                    "Access-Control-Allow-Origin": "*"
-                }
+                headers: { "Content-Type": "application/json;charset=UTF-8" }
             });
         }
     }

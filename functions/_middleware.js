@@ -1,18 +1,15 @@
-// 终极安全版：防遍历暗号化 + 老板隐藏控制台(生成10年) + 全自动时空引擎 + 老客户保底
+// 终极安全版：防遍历暗号化 + 老板隐藏控制台(10年) + 全自动时空引擎 + 找回老客户保底补丁
 export async function onRequest(context) {
     const request = context.request;
     const url = new URL(request.url);
 
     // =================================================================
-    // 👑 【老板核心机密区：千万别泄露】
+    // 👑 【老板核心机密区】
     // =================================================================
-    const SECRET_SALT = "MAX_YINGYIN_888999"; // 加密盐：用于生成绝密后缀
-    const BOSS_PWD = "666"; // 老板控制台的访问密码
-    const blacklist = []; // 严重泄露时的封杀名单（填全称，比如 "202607a8x2"）
+    const SECRET_SALT = "MAX_YINGYIN_888999"; 
+    const BOSS_PWD = "666"; 
+    const blacklist = []; 
 
-    // -----------------------------------------------------------------
-    // 🧠 核心算法：用月份和加密盐，绞碎生成 4 位独一无二的字母数字
-    // -----------------------------------------------------------------
     function getSecureSuffix(monthStr) {
         let str = monthStr + SECRET_SALT;
         let hash = 0;
@@ -26,13 +23,11 @@ export async function onRequest(context) {
     }
 
     // =================================================================
-    // 🖥️ 【隐秘角落：老板专属自动发卡机后台】
+    // 🖥️ 【老板专属后台】
     // =================================================================
-    // 增强匹配：忽略大小写，忽略末尾的斜杠
     if (url.pathname.toLowerCase().replace(/\/$/, '') === "/boss888") {
         const pwd = url.searchParams.get("pwd");
         
-        // 密码不对，弹窗要密码
         if (pwd !== BOSS_PWD) {
             return new Response(`
                 <html>
@@ -47,15 +42,12 @@ export async function onRequest(context) {
             `, { headers: {"Content-Type": "text/html;charset=UTF-8"} });
         }
 
-        // 密码正确，开始全自动算号！生成未来 10 年（120个月）的卖卡链接！
         let listHtml = "";
-        const now = new Date(new Date().getTime() + 8 * 3600000); // 获取北京时间
+        const now = new Date(new Date().getTime() + 8 * 3600000); 
         let y = now.getUTCFullYear();
         let m = now.getUTCMonth() + 1;
 
-        // 循环 120 次，计算未来 10 年的每一个月
         for(let i = 0; i < 120; i++) {
-            // 严谨的跨年计算逻辑
             let checkY = y + Math.floor((m - 1 + i) / 12);
             let checkM = ((m - 1 + i) % 12) + 1;
             
@@ -95,16 +87,25 @@ export async function onRequest(context) {
         return context.env.ASSETS.fetch(url);
     }
 
+    // 提取令牌
     let userToken = url.searchParams.get("token");
 
+    // =================================================================
+    // 💡【核心修复：老客户免死金牌补丁】
+    // 找回昨天漏掉的补丁：如果发现没带 token 来敲门，强行给他们贴上 202607 标签！
+    // 这样那几个没换配置的旧客户，今晚就能正常使用了！
+    // =================================================================
+    if (!userToken) {
+        userToken = "202607";
+    }
+
     // -----------------------------------------------------------------
-    // 🧠 全自动时空算力引擎 (算寿命)
+    // 🧠 全自动时空算力引擎
     // -----------------------------------------------------------------
     function isTokenValid(token) {
         if (!token) return false;
         if (blacklist.includes(token)) return false; 
 
-        // 解析前6位（年月）
         const tokenYear = parseInt(token.substring(0, 4), 10);
         const tokenMonth = parseInt(token.substring(4, 6), 10);
         if (isNaN(tokenYear) || isNaN(tokenMonth)) return false;
@@ -117,8 +118,8 @@ export async function onRequest(context) {
         const currentAbsolute = currentYear * 12 + currentMonth;
         const diff = currentAbsolute - tokenAbsolute;
 
-        if (diff < -1) return false; // 防超前发卡
-        if (diff >= 12) return false; // 满一年自动切断
+        if (diff < -1) return false; 
+        if (diff >= 12) return false; 
 
         return true;
     }
@@ -157,11 +158,10 @@ export async function onRequest(context) {
     }
 
     // -----------------------------------------------------------------
-    // 👑 自动生成多仓 (识别带加密后缀的新链接)
-    // 比如：捕获 /202607ky8p.json
+    // 👑 自动生成多仓 
     // -----------------------------------------------------------------
     const secureMatch = url.pathname.match(/^\/(\d{6})([a-z0-9]{4})\.json$/);
-    const oldMatch = url.pathname.match(/^\/(\d{6})\.json$/); // 捕捉老客户的纯数字格式
+    const oldMatch = url.pathname.match(/^\/(\d{6})\.json$/); 
 
     let reqMonth = null;
     let reqSuffix = null;
@@ -177,7 +177,6 @@ export async function onRequest(context) {
             isRequestValid = true;
         }
     } else if (oldMatch) {
-        // 💡【老客户保底通道】
         reqMonth = oldMatch[1];
         if ((reqMonth === "202606" || reqMonth === "202607") && isTokenValid(reqMonth)) {
             finalToken = reqMonth; 

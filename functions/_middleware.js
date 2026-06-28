@@ -1,4 +1,4 @@
-// 终极安全版：防遍历暗号化 + 老板隐藏控制台 + 全自动时空引擎 + 老客户保底
+// 终极安全版：防遍历暗号化 + 老板隐藏控制台(生成10年) + 全自动时空引擎 + 老客户保底
 export async function onRequest(context) {
     const request = context.request;
     const url = new URL(request.url);
@@ -47,16 +47,18 @@ export async function onRequest(context) {
             `, { headers: {"Content-Type": "text/html;charset=UTF-8"} });
         }
 
-        // 密码正确，开始全自动算号！生成未来 12 个月的卖卡链接！
+        // 密码正确，开始全自动算号！生成未来 10 年（120个月）的卖卡链接！
         let listHtml = "";
         const now = new Date(new Date().getTime() + 8 * 3600000); // 获取北京时间
         let y = now.getUTCFullYear();
         let m = now.getUTCMonth() + 1;
 
-        for(let i = 0; i < 12; i++) {
-            let checkM = m + i;
-            let checkY = y;
-            if (checkM > 12) { checkM -= 12; checkY++; }
+        // 循环 120 次，计算未来 10 年的每一个月
+        for(let i = 0; i < 120; i++) {
+            // 严谨的跨年计算逻辑
+            let checkY = y + Math.floor((m - 1 + i) / 12);
+            let checkM = ((m - 1 + i) % 12) + 1;
+            
             let monthStr = checkY.toString() + (checkM < 10 ? "0" + checkM : checkM);
             let suffix = getSecureSuffix(monthStr);
             let finalUrl = `https://kyomomo.top/${monthStr}${suffix}.json`;
@@ -74,7 +76,7 @@ export async function onRequest(context) {
             <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
             <body style="background:#0a0a12;color:#fff;text-align:center;padding:30px 15px;font-family:sans-serif;">
                 <h2 style="margin-bottom:5px;">👑 MAX 影音发卡机</h2>
-                <p style="color:#8e8e9f;font-size:13px;margin-bottom:30px;">（全自动加密版 · 动态防猜）</p>
+                <p style="color:#8e8e9f;font-size:13px;margin-bottom:30px;">（全自动加密版 · 动态生成未来10年）</p>
                 ${listHtml}
                 <div style="margin-top:40px; font-size:12px; color:#555;">点击网址可长按复制。绝密页面，请勿外传。</div>
             </body></html>

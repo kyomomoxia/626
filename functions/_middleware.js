@@ -1,48 +1,112 @@
-// 全局神级中间件：网页拦截 + 16路302弹射 + 全自动一年期授权计算 + 令牌锁 + 老客户兼容
+// 终极安全版：防遍历暗号化 + 老板隐藏控制台 + 全自动时空引擎 + 老客户保底
 export async function onRequest(context) {
     const request = context.request;
     const url = new URL(request.url);
-    
-    // 1. 获取特征
+
+    // =================================================================
+    // 👑 【老板核心机密区：千万别泄露】
+    // =================================================================
+    const SECRET_SALT = "MAX_YINGYIN_888999"; // 加密盐：用于生成绝密后缀（你可以随便改几个字母）
+    const BOSS_PWD = "666"; // 老板控制台的访问密码（你进入后台需要输的密码）
+    const blacklist = []; // 严重泄露时的封杀名单（填全称，比如 "202607a8x2"）
+
+    // -----------------------------------------------------------------
+    // 🧠 核心算法：用月份和加密盐，绞碎生成 4 位独一无二的字母数字
+    // -----------------------------------------------------------------
+    function getSecureSuffix(monthStr) {
+        let str = monthStr + SECRET_SALT;
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            hash = ((hash << 5) - hash) + str.charCodeAt(i);
+            hash = hash & hash; 
+        }
+        let suffix = Math.abs(hash).toString(36);
+        while (suffix.length < 4) suffix = "0" + suffix;
+        return suffix.substring(0, 4);
+    }
+
+    // =================================================================
+    // 🖥️ 【隐秘角落：老板专属自动发卡机后台】
+    // =================================================================
+    if (url.pathname === "/boss888") {
+        const pwd = url.searchParams.get("pwd");
+        
+        // 密码不对，弹窗要密码
+        if (pwd !== BOSS_PWD) {
+            return new Response(`
+                <html>
+                <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+                <body style="background:#0a0a12;color:#fff;text-align:center;padding:20vh 20px;">
+                    <h2>👑 老板安全验证</h2>
+                    <script>
+                        let p = prompt("请输入 MAX 影音核心控制台密码：");
+                        if(p) window.location.href = "/boss888?pwd=" + p;
+                    </script>
+                </body></html>
+            `, { headers: {"Content-Type": "text/html;charset=UTF-8"} });
+        }
+
+        // 密码正确，开始全自动算号！生成未来 12 个月的卖卡链接！
+        let listHtml = "";
+        const now = new Date(new Date().getTime() + 8 * 3600000); // 获取北京时间
+        let y = now.getUTCFullYear();
+        let m = now.getUTCMonth() + 1;
+
+        for(let i = 0; i < 12; i++) {
+            let checkM = m + i;
+            let checkY = y;
+            if (checkM > 12) { checkM -= 12; checkY++; }
+            let monthStr = checkY.toString() + (checkM < 10 ? "0" + checkM : checkM);
+            let suffix = getSecureSuffix(monthStr);
+            let finalUrl = \`https://kyomomo.top/\${monthStr}\${suffix}.json\`;
+            
+            listHtml += \`
+                <div style="background:#1c1c28; margin-bottom:15px; padding:15px; border-radius:10px; text-align:left;">
+                    <span style="color:#8e8e9f; font-size:14px;">发给新客户 (\${monthStr}) :</span><br>
+                    <b style="color:#4cd964; font-size:16px; font-family:monospace; user-select:all;">\${finalUrl}</b>
+                </div>
+            \`;
+        }
+
+        return new Response(`
+            <html>
+            <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+            <body style="background:#0a0a12;color:#fff;text-align:center;padding:30px 15px;font-family:sans-serif;">
+                <h2 style="margin-bottom:5px;">👑 MAX 影音发卡机</h2>
+                <p style="color:#8e8e9f;font-size:13px;margin-bottom:30px;">（全自动加密版 · 动态防猜）</p>
+                \${listHtml}
+                <div style="margin-top:40px; font-size:12px; color:#555;">点击网址可长按复制。绝密页面，请勿外传。</div>
+            </body></html>
+        `, { headers: {"Content-Type": "text/html;charset=UTF-8"} });
+    }
+
+    // -----------------------------------------------------------------
+    // 日常拦截与验证逻辑
+    // -----------------------------------------------------------------
     const acceptHeader = request.headers.get("Accept") || "";
     const userAgent = request.headers.get("User-Agent") || "";
-
-    // 2. 浏览器直接拦截，展示官方门面
-    const isWebBrowser = acceptHeader.includes("text/html") || 
-                        (userAgent.includes("Mozilla/") && !userAgent.includes("okhttp"));
+    const isWebBrowser = acceptHeader.includes("text/html") || (userAgent.includes("Mozilla/") && !userAgent.includes("okhttp"));
 
     if (isWebBrowser) {
         url.pathname = "/index.html"; 
         return context.env.ASSETS.fetch(url);
     }
 
-    // =================================================================
-    // 👑 【老板唯一维护区：黑名单控制】
-    // 只有当某个月份被严重泄露时，你才把它填进 blacklist 里进行“人工封杀”。
-    // =================================================================
-    const blacklist = [];
-
-    // 提取客户端网址里携带的令牌
     let userToken = url.searchParams.get("token");
 
-    // 💡【老客户兼容补丁】：为了今天已经发出去的 30 个客户，给他们自动打上 202607 标签
-    if (!userToken) {
-        userToken = "202607";
-    }
-
     // -----------------------------------------------------------------
-    // 🧠 核心黑科技：【全自动时空算力引擎 (计算一年期)】
+    // 🧠 全自动时空算力引擎 (算寿命)
     // -----------------------------------------------------------------
     function isTokenValid(token) {
-        if (!token || token.length !== 6) return false;
+        if (!token) return false;
         if (blacklist.includes(token)) return false; 
 
+        // 解析前6位（年月）
         const tokenYear = parseInt(token.substring(0, 4), 10);
         const tokenMonth = parseInt(token.substring(4, 6), 10);
         if (isNaN(tokenYear) || isNaN(tokenMonth)) return false;
 
-        // 获取当前北京时间的真实年月
-        const now = new Date(new Date().getTime() + 8 * 60 * 60 * 1000);
+        const now = new Date(new Date().getTime() + 8 * 3600000);
         const currentYear = now.getUTCFullYear();
         const currentMonth = now.getUTCMonth() + 1; 
 
@@ -50,35 +114,21 @@ export async function onRequest(context) {
         const currentAbsolute = currentYear * 12 + currentMonth;
         const diff = currentAbsolute - tokenAbsolute;
 
-        // 防白嫖猜未来：只允许提前 1 个月发卡
-        if (diff < -1) return false;
-
-        // 满一年自动报废
-        if (diff >= 12) return false;
+        if (diff < -1) return false; // 防超前发卡
+        if (diff >= 12) return false; // 满一年自动切断
 
         return true;
     }
 
     const hasValidAccess = isTokenValid(userToken);
 
-    // -----------------------------------------------------------------
-    // 核心安全机制一：底层主线文件的最高防线 (修复制版：最稳定的放行)
-    // -----------------------------------------------------------------
+    // 保护底层主线
     if (url.pathname.toUpperCase() === "/902.JSON") {
-        if (hasValidAccess) {
-            // 令牌有效，完美原路放行，保证电视盒子的所有请求头都不丢失！
-            return context.next();
-        } else {
-            // 令牌失效或没权限，直接发回空壳数据切断它
-            return new Response(JSON.stringify({ "sites": [] }), {
-                headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" }
-            });
-        }
+        if (hasValidAccess) return context.next();
+        return new Response(JSON.stringify({ "sites": [] }), { headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" } });
     }
 
-    // -----------------------------------------------------------------
-    // 核心安全机制二：16路收集线的“带卡弹射”
-    // -----------------------------------------------------------------
+    // 16路隐形弹射
     const routes = {
         "/line1.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=1",
         "/line2.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=3",
@@ -99,59 +149,72 @@ export async function onRequest(context) {
     };
 
     if (routes[url.pathname]) {
-        if (hasValidAccess) {
-            return Response.redirect(routes[url.pathname], 302);
-        } else {
-            return new Response(JSON.stringify({ "sites": [] }), {
-                headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" }
-            });
-        }
+        if (hasValidAccess) return Response.redirect(routes[url.pathname], 302);
+        return new Response(JSON.stringify({ "sites": [] }), { headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" } });
     }
 
     // -----------------------------------------------------------------
-    // 核心安全机制三：全自动多仓生成器
+    // 👑 自动生成多仓 (识别带加密后缀的新链接)
+    // 比如：捕获 /202607ky8p.json
     // -----------------------------------------------------------------
-    const monthMatch = url.pathname.match(/^\/(\d{6})\.json$/);
+    const secureMatch = url.pathname.match(/^\/(\d{6})([a-z0-9]{4})\.json$/);
+    const oldMatch = url.pathname.match(/^\/(\d{6})\.json$/); // 捕捉老客户的纯数字格式
 
-    if (monthMatch) {
-        const reqMonth = monthMatch[1]; 
+    let reqMonth = null;
+    let reqSuffix = null;
+    let finalToken = null;
+    let isRequestValid = false;
+
+    if (secureMatch) {
+        reqMonth = secureMatch[1]; // 比如 202607
+        reqSuffix = secureMatch[2]; // 比如 ky8p
         
-        if (isTokenValid(reqMonth)) {
+        // 核心验伪：云端自己算一遍当月的密码，看看是不是客户填的那个后缀！
+        if (reqSuffix === getSecureSuffix(reqMonth) && isTokenValid(reqMonth + reqSuffix)) {
+            finalToken = reqMonth + reqSuffix; 
+            isRequestValid = true;
+        }
+    } else if (oldMatch) {
+        // 💡【老客户保底通道】：只允许 202606 和 202607 不带密码进入，保护那批老客户！
+        reqMonth = oldMatch[1];
+        if ((reqMonth === "202606" || reqMonth === "202607") && isTokenValid(reqMonth)) {
+            finalToken = reqMonth; 
+            isRequestValid = true;
+        }
+    }
+
+    if (reqMonth) {
+        if (isRequestValid) {
             const validConfig = {
                 "urls": [
-                    // 直接给 902.JSON 上令牌锁，简单粗暴最稳定！
-                    { "name": `💖 ${reqMonth} VIP专属主线 💖`, "url": `https://kyomomo.top/902.JSON?token=${reqMonth}` },
-                    { "name": "专业影音收集一", "url": `https://kyomomo.top/line1.json?token=${reqMonth}` },
-                    { "name": "专业影音收集二", "url": `https://kyomomo.top/line2.json?token=${reqMonth}` },
-                    { "name": "专业影音收集三", "url": `https://kyomomo.top/line3.json?token=${reqMonth}` },
-                    { "name": "专业影音收集四", "url": `https://kyomomo.top/line4.json?token=${reqMonth}` },
-                    { "name": "专业影音收集五", "url": `https://kyomomo.top/line5.json?token=${reqMonth}` },
-                    { "name": "专业影音收集六", "url": `https://kyomomo.top/line6.json?token=${reqMonth}` },
-                    { "name": "专业影音收集七", "url": `https://kyomomo.top/line7.json?token=${reqMonth}` },
-                    { "name": "专业影音收集八", "url": `https://kyomomo.top/line8.json?token=${reqMonth}` },
-                    { "name": "专业影音收集九", "url": `https://kyomomo.top/line9.json?token=${reqMonth}` },
-                    { "name": "专业影音收集十", "url": `https://kyomomo.top/line10.json?token=${reqMonth}` },
-                    { "name": "专业影音收集十一", "url": `https://kyomomo.top/line11.json?token=${reqMonth}` },
-                    { "name": "专业影音收集十二", "url": `https://kyomomo.top/line12.json?token=${reqMonth}` },
-                    { "name": "专业影音收集十三", "url": `https://kyomomo.top/line13.json?token=${reqMonth}` },
-                    { "name": "专业影音收集十四", "url": `https://kyomomo.top/line14.json?token=${reqMonth}` },
-                    { "name": "专业影音收集十五", "url": `https://kyomomo.top/line15.json?token=${reqMonth}` },
-                    { "name": "专业影音收集十六", "url": `https://kyomomo.top/line16.json?token=${reqMonth}` }
+                    { "name": `💖 ${reqMonth} VIP专属主线 💖`, "url": `https://kyomomo.top/902.JSON?token=${finalToken}` },
+                    { "name": "专业影音收集一", "url": `https://kyomomo.top/line1.json?token=${finalToken}` },
+                    { "name": "专业影音收集二", "url": `https://kyomomo.top/line2.json?token=${finalToken}` },
+                    { "name": "专业影音收集三", "url": `https://kyomomo.top/line3.json?token=${finalToken}` },
+                    { "name": "专业影音收集四", "url": `https://kyomomo.top/line4.json?token=${finalToken}` },
+                    { "name": "专业影音收集五", "url": `https://kyomomo.top/line5.json?token=${finalToken}` },
+                    { "name": "专业影音收集六", "url": `https://kyomomo.top/line6.json?token=${finalToken}` },
+                    { "name": "专业影音收集七", "url": `https://kyomomo.top/line7.json?token=${finalToken}` },
+                    { "name": "专业影音收集八", "url": `https://kyomomo.top/line8.json?token=${finalToken}` },
+                    { "name": "专业影音收集九", "url": `https://kyomomo.top/line9.json?token=${finalToken}` },
+                    { "name": "专业影音收集十", "url": `https://kyomomo.top/line10.json?token=${finalToken}` },
+                    { "name": "专业影音收集十一", "url": `https://kyomomo.top/line11.json?token=${finalToken}` },
+                    { "name": "专业影音收集十二", "url": `https://kyomomo.top/line12.json?token=${finalToken}` },
+                    { "name": "专业影音收集十三", "url": `https://kyomomo.top/line13.json?token=${finalToken}` },
+                    { "name": "专业影音收集十四", "url": `https://kyomomo.top/line14.json?token=${finalToken}` },
+                    { "name": "专业影音收集十五", "url": `https://kyomomo.top/line15.json?token=${finalToken}` },
+                    { "name": "专业影音收集十六", "url": `https://kyomomo.top/line16.json?token=${finalToken}` }
                 ]
             };
-            return new Response(JSON.stringify(validConfig), {
-                headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" }
-            });
+            return new Response(JSON.stringify(validConfig), { headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" } });
         } else {
             const expiredConfig = {
                 "urls": [
-                    { "name": `⚠️ 您的授权 [${reqMonth}] 已无效/未到发售期`, "url": "https://kyomomo.top/empty.json" },
-                    { "name": "👉 请联系微信 xxxxx 购买/续费", "url": "https://kyomomo.top/empty.json" }
+                    { "name": `⚠️ 您输入的授权配置不合法或已过期`, "url": "https://kyomomo.top/empty.json" },
+                    { "name": "👉 请联系微信获取专属授权码", "url": "https://kyomomo.top/empty.json" }
                 ]
             };
-            return new Response(JSON.stringify(expiredConfig), {
-                headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" }
-            });
+            return new Response(JSON.stringify(expiredConfig), { headers: { "Content-Type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*" } });
         }
     }
 

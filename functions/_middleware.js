@@ -6,8 +6,8 @@ export async function onRequest(context) {
     // =================================================================
     // 👑 【老板核心机密区：千万别泄露】
     // =================================================================
-    const SECRET_SALT = "MAX_YINGYIN_888999"; // 加密盐：用于生成绝密后缀（你可以随便改几个字母）
-    const BOSS_PWD = "666"; // 老板控制台的访问密码（你进入后台需要输的密码）
+    const SECRET_SALT = "MAX_YINGYIN_888999"; // 加密盐：用于生成绝密后缀
+    const BOSS_PWD = "666"; // 老板控制台的访问密码
     const blacklist = []; // 严重泄露时的封杀名单（填全称，比如 "202607a8x2"）
 
     // -----------------------------------------------------------------
@@ -28,7 +28,8 @@ export async function onRequest(context) {
     // =================================================================
     // 🖥️ 【隐秘角落：老板专属自动发卡机后台】
     // =================================================================
-    if (url.pathname === "/boss888") {
+    // 增强匹配：忽略大小写，忽略末尾的斜杠
+    if (url.pathname.toLowerCase().replace(/\/$/, '') === "/boss888") {
         const pwd = url.searchParams.get("pwd");
         
         // 密码不对，弹窗要密码
@@ -58,14 +59,14 @@ export async function onRequest(context) {
             if (checkM > 12) { checkM -= 12; checkY++; }
             let monthStr = checkY.toString() + (checkM < 10 ? "0" + checkM : checkM);
             let suffix = getSecureSuffix(monthStr);
-            let finalUrl = \`https://kyomomo.top/\${monthStr}\${suffix}.json\`;
+            let finalUrl = `https://kyomomo.top/${monthStr}${suffix}.json`;
             
-            listHtml += \`
+            listHtml += `
                 <div style="background:#1c1c28; margin-bottom:15px; padding:15px; border-radius:10px; text-align:left;">
-                    <span style="color:#8e8e9f; font-size:14px;">发给新客户 (\${monthStr}) :</span><br>
-                    <b style="color:#4cd964; font-size:16px; font-family:monospace; user-select:all;">\${finalUrl}</b>
+                    <span style="color:#8e8e9f; font-size:14px;">发给新客户 (${monthStr}) :</span><br>
+                    <b style="color:#4cd964; font-size:16px; font-family:monospace; user-select:all;">${finalUrl}</b>
                 </div>
-            \`;
+            `;
         }
 
         return new Response(`
@@ -74,7 +75,7 @@ export async function onRequest(context) {
             <body style="background:#0a0a12;color:#fff;text-align:center;padding:30px 15px;font-family:sans-serif;">
                 <h2 style="margin-bottom:5px;">👑 MAX 影音发卡机</h2>
                 <p style="color:#8e8e9f;font-size:13px;margin-bottom:30px;">（全自动加密版 · 动态防猜）</p>
-                \${listHtml}
+                ${listHtml}
                 <div style="margin-top:40px; font-size:12px; color:#555;">点击网址可长按复制。绝密页面，请勿外传。</div>
             </body></html>
         `, { headers: {"Content-Type": "text/html;charset=UTF-8"} });
@@ -166,16 +167,15 @@ export async function onRequest(context) {
     let isRequestValid = false;
 
     if (secureMatch) {
-        reqMonth = secureMatch[1]; // 比如 202607
-        reqSuffix = secureMatch[2]; // 比如 ky8p
+        reqMonth = secureMatch[1]; 
+        reqSuffix = secureMatch[2]; 
         
-        // 核心验伪：云端自己算一遍当月的密码，看看是不是客户填的那个后缀！
         if (reqSuffix === getSecureSuffix(reqMonth) && isTokenValid(reqMonth + reqSuffix)) {
             finalToken = reqMonth + reqSuffix; 
             isRequestValid = true;
         }
     } else if (oldMatch) {
-        // 💡【老客户保底通道】：只允许 202606 和 202607 不带密码进入，保护那批老客户！
+        // 💡【老客户保底通道】
         reqMonth = oldMatch[1];
         if ((reqMonth === "202606" || reqMonth === "202607") && isTokenValid(reqMonth)) {
             finalToken = reqMonth; 

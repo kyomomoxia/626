@@ -21,11 +21,9 @@
     {"key":"csp_woog","name":"🐮玩欧｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1aa78a7afa85d5ace98c1c57e6123f2c.jpg;md5;d29b7750dc6fc68cfbd5d40b1503d9d0","ext":{"site_urls":["https://woog.nxog.fun","https://woog.nxog.eu.org"],"url_key":"woog","threadinfo":{"chunksize":232,"threads":16}}},
     {"key":"欧哥","name":"🐴欧歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/0df0dafe840912a9250167063b1f3cad.jpg;md5;dd19c67b72b708f567d94500d7d9ab4e","ext":{"site_urls":["https://ogkk.nxog.fun","https://ogkk.nxog.eu.org"],"url_key":"欧哥","threadinfo":{"chunksize":243,"threads":16}}},
     {"key":"夸快夸快","name":"🐷夸快｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
-{"key":"Ali_4K_WanOu","name":"👑玩偶｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://woog.nxog.eu.org","https://woog.nxog.fun"]},"timeout":60},
-    {"key":"Ali_4K_ZhiZhen","name":"👑至臻｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://mihdr.top","https://zhizhenpan.com"]},"timeout":60},
-    {"key":"Ali_4K_DuoDuo","name":"👑多多｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://tv.yydsys.top","https://tv.214521.xyz"]},"timeout":60},
-    {"key":"ChangZhang_XYQ","name":"👑厂长丨无损原画","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XYQHiker/厂长资源.json"},
-    {"key":"YingShi_Gang","name":"👑影港丨无损原画","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XYQHiker/电影港.json"}
+{"key":"Ali_DuoDuo","name":"👑 多多｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://tv.yydsys.top","https://tv.214521.xyz"]},"timeout":60},
+    {"key":"ChangZhang_XYQ","name":"👑 厂长丨无损原画","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/ouhaibo1980/tvbox/main/XYQHiker/厂长资源.json"},
+    {"key":"YingShi_Gang","name":"👑 影港丨无损原画","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/ouhaibo1980/tvbox/main/XYQHiker/电影港.json"},
     {"key":"裤佬世界杯直播","name":"⚽世界杯丨直播","type":1,"api":"https://jsnzkpg.us.ci"},
     {"key": "荐片","name": "🎬荐片｜影视","api": "csp_JianPian","type": 3},
 

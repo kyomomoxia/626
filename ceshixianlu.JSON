@@ -23,6 +23,140 @@
     {"key":"夸快夸快","name":"🐷夸快｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
     {"key":"裤佬世界杯直播","name":"⚽世界杯丨直播","type":1,"api":"https://jsnzkpg.us.ci"},
     {"key": "荐片","name": "🎬荐片｜影视","api": "csp_JianPian","type": 3},
+{
+      "key": "wolong",
+      "name": "🐉 卧龙资源｜纯API",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "wujin",
+      "name": "♾️ 无尽资源｜纯API",
+      "type": 1,
+      "api": "https://api.wujinapi.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "tianyi",
+      "name": "☁️ 天翼资源｜纯API",
+      "type": 1,
+      "api": "https://www.tianyizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "zuida",
+      "name": "👑 最大资源｜纯API",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "huya",
+      "name": "🐯 虎牙资源｜纯API",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "xinlang",
+      "name": "🌊 新浪资源｜纯API",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "baofeng",
+      "name": "🌪️ 暴风资源｜纯API",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "maotai",
+      "name": "🍾 茅台资源｜纯API",
+      "type": 1,
+      "api": "https://caiji.maotaizy.top/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "heimuer",
+      "name": "🍄 黑木耳源｜纯API",
+      "type": 1,
+      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "youzhi",
+      "name": "🏅 优质资源｜纯API",
+      "type": 1,
+      "api": "https://api.1080zyku.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    }
+{
+      "key": "suoni",
+      "name": "🔥 索尼4K｜纯API",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": ""
+    },
+    {
+      "key": "feifan",
+      "name": "🚀 非凡资源｜纯API",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": ""
+    },
+    {
+      "key": "liangzi",
+      "name": "🌌 量子蓝光｜纯API",
+      "type": 1,
+      "api": "https://cj.lzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": ""
+    },
+    {
+      "key": "guangsu",
+      "name": "⚡ 光速影视｜纯API",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": ""
+    },
+    {
+      "key": "jisu",
+      "name": "🚀 极速影视｜纯API",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": ""
+    },
+    {
+      "key": "399zy",
+      "name": "🌟 399资源｜纯API",
+      "type": 1,
+      "api": "https://www.399zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": ""
+    }
     {"key": "New6v","name": "🎬新6V┃磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.xb6v.com"},
     {"key":"移动","name":"🎬移动｜影视","type":3,"api":"csp_YDjisu","searchable":1,"quickSearch":1},
     {"key":"热播影视","name":"🎬热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},

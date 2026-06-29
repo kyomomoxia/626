@@ -23,54 +23,9 @@
     {"key":"夸快夸快","name":"🐷夸快｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
     {"key":"裤佬世界杯直播","name":"⚽世界杯丨直播","type":1,"api":"https://jsnzkpg.us.ci"},
     {"key": "荐片","name": "🎬荐片｜影视","api": "csp_JianPian","type": 3},
-    {
-      "key": "wolong",
-      "name": "🐉 卧龙资源｜纯API",
-      "type": 1,
-      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "wujin",
-      "name": "♾️ 无尽资源｜纯API",
-      "type": 1,
-      "api": "https://api.wujinapi.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "tianyi",
-      "name": "☁️ 天翼资源｜纯API",
-      "type": 1,
-      "api": "https://www.tianyizy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "zuida",
-      "name": "👑 最大资源｜纯API",
-      "type": 1,
-      "api": "https://api.zuidapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "huya",
-      "name": "🐯 虎牙资源｜纯API",
-      "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "xinlang",
-      "name": "🌊 新浪资源｜纯API",
-      "type": 1,
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
+
+
+
     {
       "key": "baofeng",
       "name": "🌪️ 暴风资源｜纯API",
@@ -78,66 +33,6 @@
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "maotai",
-      "name": "🍾 茅台资源｜纯API",
-      "type": 1,
-      "api": "https://caiji.maotaizy.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "heimuer",
-      "name": "🍄 黑木耳源｜纯API",
-      "type": 1,
-      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "youzhi",
-      "name": "🏅 优质资源｜纯API",
-      "type": 1,
-      "api": "https://api.1080zyku.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "suoni",
-      "name": "🔥 索尼4K｜纯API",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": ""
-    },
-    {
-      "key": "feifan",
-      "name": "🚀 非凡资源｜纯API",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": ""
-    },
-    {
-      "key": "liangzi",
-      "name": "🌌 量子蓝光｜纯API",
-      "type": 1,
-      "api": "https://cj.lzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": ""
-    },
-    {
-      "key": "guangsu",
-      "name": "⚡ 光速影视｜纯API",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": ""
     },
     {
       "key": "jisu",
@@ -148,15 +43,30 @@
       "quickSearch": 1,
       "playUrl": ""
     },
-    {
-      "key": "399zy",
-      "name": "🌟 399资源｜纯API",
-      "type": 1,
-      "api": "https://www.399zy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": ""
-    },
+
+{"key": "py_ddys", "name": "👑低端｜真4K原画", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py/py_ddys.py", "searchable": 1, "quickSearch": 1, "filterable": 1},
+    {"key": "drpy_zxzj", "name": "👑在线｜高码美剧", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/在线之家.js", "searchable": 1, "quickSearch": 1, "filterable": 1},
+    {"key": "drpy_subaibai", "name": "👑素白｜蓝光无印", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/素白白.js", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_libvio", "name": "👑利波｜蓝光直连", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/libvio.js", "searchable": 1, "quickSearch": 1},
+    {"key": "py_cctv", "name": "👑央视｜官方4K源", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py/py_cctv.py", "searchable": 1, "quickSearch": 0},
+    {"key": "csp_Bili", "name": "👑哔哩｜官方4K源", "type": 3, "api": "csp_Bili", "searchable": 1, "quickSearch": 1, "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/zhixc/tvbox/master/json/bilibili.json"},
+    {"key": "py_bttwoo", "name": "👑BT兔｜磁力4K", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py/py_bttwoo.py", "searchable": 1, "quickSearch": 1},
+    {"key": "py_czzy", "name": "👑厂长｜PY直连版", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py/py_czzy.py", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_auete", "name": "👑A站｜影视无广", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/auete.js", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_kuaikan", "name": "👑快看｜机壳抓包", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/快看.js", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_yhdmp", "name": "👑樱花｜动漫原画", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/樱花动漫.js", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_age", "name": "👑AGE｜动漫高码", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/age动漫.js", "searchable": 1, "quickSearch": 1},
+    {"key": "csp_OpenEye", "name": "👑开眼｜画质天花板", "type": 3, "api": "csp_OpenEye", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_kaiyan", "name": "👑开眼｜JS解密版", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/开眼.js", "searchable": 1, "quickSearch": 1},
+    {"key": "py_kanqiu", "name": "⚽看球｜官方源", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py/py_kanqiu.py", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_ttmjp", "name": "👑美剧｜天天高码", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/天天美剧.js", "searchable": 1, "quickSearch": 1},
+    {"key": "py_nangua", "name": "👑南瓜｜PY官源", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py/py_nangua.py", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_bttwoo_js", "name": "👑BT兔｜纯JS版", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/bttwoo.js", "searchable": 1, "quickSearch": 1},
+    {"key": "py_zxzj", "name": "👑在线｜PY解密版", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py/py_zxzj.py", "searchable": 1, "quickSearch": 1},
+    {"key": "drpy_ddys_js", "name": "👑低端｜纯JS版", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/低端影视.js", "searchable": 1, "quickSearch": 1, "ext": "https://ddys.pro"},
+
+
+
     {"key":"FengYe_PY","name":"🎞️枫叶丨PY直解","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
     {"key":"YiDong_CDN","name":"🎬移动｜纯净CDN","type":3,"api":"csp_YDjisu","searchable":1,"quickSearch":1},
     {"key":"ReBo_PY","name":"🎞️热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},

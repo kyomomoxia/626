@@ -1,0 +1,30 @@
+央视频道,#genre#
+CCTV-1 综合,http://live.fanmingming.com/tv/CCTV1/HD.m3u8
+CCTV-2 财经,http://live.fanmingming.com/tv/CCTV2/HD.m3u8
+CCTV-3 综艺,http://live.fanmingming.com/tv/CCTV3/HD.m3u8
+CCTV-4 中文国际,http://live.fanmingming.com/tv/CCTV4/HD.m3u8
+CCTV-5 体育,http://live.fanmingming.com/tv/CCTV5/HD.m3u8
+CCTV-5+ 体育赛事,http://live.fanmingming.com/tv/CCTV5+/HD.m3u8
+CCTV-6 电影,http://live.fanmingming.com/tv/CCTV6/HD.m3u8
+CCTV-7 军事农业,http://live.fanmingming.com/tv/CCTV7/HD.m3u8
+CCTV-8 电视剧,http://live.fanmingming.com/tv/CCTV8/HD.m3u8
+CCTV-9 纪录,http://live.fanmingming.com/tv/CCTV9/HD.m3u8
+CCTV-10 科教,http://live.fanmingming.com/tv/CCTV10/HD.m3u8
+CCTV-12 社会与法,http://live.fanmingming.com/tv/CCTV12/HD.m3u8
+CCTV-13 新闻,http://live.fanmingming.com/tv/CCTV13/HD.m3u8
+CCTV-14 少儿,http://live.fanmingming.com/tv/CCTV14/HD.m3u8
+CCTV-15 音乐,http://live.fanmingming.com/tv/CCTV15/HD.m3u8
+CCTV-16 奥林匹克,http://live.fanmingming.com/tv/CCTV16/HD.m3u8
+CCTV-17 农业农村,http://live.fanmingming.com/tv/CCTV17/HD.m3u8
+
+地方卫视,#genre#
+湖南卫视 HD,http://live.fanmingming.com/tv/HunanTV/HD.m3u8
+江苏卫视 HD,http://live.fanmingming.com/tv/JSBC/HD.m3u8
+浙江卫视 HD,http://live.fanmingming.com/tv/ZJTV/HD.m3u8
+北京卫视 HD,http://live.fanmingming.com/tv/BTV/HD.m3u8
+东方卫视 HD,http://live.fanmingming.com/tv/Dragontv/HD.m3u8
+广东卫视 HD,http://live.fanmingming.com/tv/GDTV/HD.m3u8
+深圳卫视 HD,http://live.fanmingming.com/tv/SZTV/HD.m3u8
+安徽卫视 HD,http://live.fanmingming.com/tv/AHTV/HD.m3u8
+山东卫视 HD,http://live.fanmingming.com/tv/SDTV/HD.m3u8
+四川卫视 HD,http://live.fanmingming.com/tv/SCTV/HD.m3u8

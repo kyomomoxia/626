@@ -134,63 +134,42 @@
       "playUrl": ""
     },
     {
-      "key": "盼她",
-      "name": "💥｜盼她｜免扫",
-      "type": 3,
-      "api": "csp_PanTa",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "guazi",
-      "name": "💥｜瓜子 | 影视",
-      "type": 3,
-      "api": "csp_Guazi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
       "key": "腾腾视频",
-      "name": "🎇｜腾腾｜解析",
+      "name": "🎞️腾腾｜解析",
       "type": 3,
       "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
       "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
     },
     {
       "key": "酷酷视频",
-      "name": "🎇｜酷酷｜解析",
+      "name": "🎞️酷酷｜解析",
       "type": 3,
       "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
       "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/YKSP.js"
     },
     {
       "key": "果果视频",
-      "name": "🎇｜果果｜解析",
+      "name": "🎞️果果｜解析",
       "type": 3,
       "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
       "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/MGSP.js"
     },
     {
       "key": "奇奇视频",
-      "name": "🎇｜奇奇｜解析",
+      "name": "🎞️奇奇｜解析",
       "type": 3,
       "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
       "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/AQY.js"
     },
     {
       "key": "360影视",
-      "name": "🎇｜六零｜影视",
+      "name": "🎞️六零｜影视",
       "type": 3,
       "api": "csp_SP360"
     },
     {
       "key": "火狐",
-      "name": "💓｜火狐｜APP",
+      "name": "🎞️火狐｜APP",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -203,7 +182,7 @@
     },
     {
       "key": "王子",
-      "name": "💓｜王子｜APP",
+      "name": "🎞️王子｜APP",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,

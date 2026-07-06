@@ -29,6 +29,15 @@
       "searchable": 1,
       "quickSearch": 1
     },
+
+
+{"key":"yidong_1","name":"💖移动1｜原类纯净","type":3,"api":"csp_YDjisu","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"yidong_2","name":"💖移动2｜极速直连","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"}},
+    {"key":"yidong_3","name":"💖移动3｜官方OTT","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/%E8%88%9E%E5%8F%B0.py","searchable":1,"changeable":1,"quickSearch":1,"filterable":1},
+    {"key":"yidong_4","name":"💖移动4｜万能橘子","type":3,"api":"csp_AppGet","searchable":1,"changeable":1,"ext":{"url":"https://444421.xyz","dataKey":"#getapp@TMD@2025","dataIv":"#getapp@TMD@2025"}},
+    {"key":"yidong_5","name":"💖移动5｜PY高压快流","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py","ext":"http://43.248.117.123:4680"},
+
+
     {
       "key": "jisu",
       "name": "🚀 极速｜纯纯",

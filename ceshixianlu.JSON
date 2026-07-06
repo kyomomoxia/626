@@ -38,34 +38,18 @@
       "quickSearch": 1,
       "playUrl": ""
     },
-    {
-      "key": "腾腾视频",
-      "name": "🎞️腾腾｜解析",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
-    },
-    {
-      "key": "酷酷视频",
-      "name": "🎞️酷酷｜解析",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/YKSP.js"
-    },
-    {
-      "key": "果果视频",
-      "name": "🎞️果果｜解析",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/MGSP.js"
-    },
-    {
-      "key": "奇奇视频",
-      "name": "🎞️奇奇｜解析",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/AQY.js"
-    },
+
+{"key":"腾腾","name":"🐧腾腾┃[解析]","type":3,"api":"./js/drpy2.min.js","ext":"./js/腾腾.js"},
+{"key":"奇奇","name":"🐴奇奇┃[解析]","type":3,"api":"./js/drpy2.min.js","ext":"./js/奇奇.js"},
+{"key":"果果","name":"🍋果果┃[解析]","type":3,"api":"./js/drpy2.min.js","ext":"./js/果果.js"},
+{"key":"酷酷","name":"😎酷酷┃[解析]","type":3,"api":"./js/drpy2.min.js","ext":"./js/酷酷.js"},
+{"key":"电影天堂","name":"🧞无广┃[采集]","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"playUrl":"","categories":["短剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","动画片"]},
+{"key":"泥泥视频","name":"🍋泥泥┃[秒播]","type":3,"api":"./js/drpy2.min.js","ext":"./js/泥泥视频.js"},
+{"key":"csp_Biliyy","name":"🅱️音乐┃[哗哩]","type":3,"api":"csp_BiliJs","filterable":1,"searchable":0,"changeable":0,"ext":{"type":"./json/biliyy.json"},"style":{"type":"rect","ratio":1.333}},
+{"key":"csp_mtv","name":"🅱️MV┃[哗哩]","type":3,"api":"csp_BiliJs","filterable":1,"searchable":0,"changeable":0,"ext":{"type":"./json/mtv.json"},"style":{"type":"rect","ratio":1.333}},
+{"key":"csp_bilirt","name":"🅱️儿童┃[哗哩]","type":3,"api":"csp_BiliJs","filterable":1,"searchable":0,"changeable":0,"ext":{"type":"./json/bilirt.json"},"style":{"type":"rect","ratio":1.333}},
+{"key":"csp_BeiLeHu","name":"🐅贝乐┃[儿童]","type":3,"api":"csp_BeiLeHu","searchable":0,"changeable":0},
+
     {
       "key": "360影视",
       "name": "🎞️六零｜影视",

@@ -22,7 +22,7 @@
     {"key": "荐片","name": "🎬荐片｜影视","api": "csp_JianPian","type": 3},
     {
       "key": "baofeng",
-      "name": "🌪️ 暴风｜纯纯",
+      "name": "🌪️暴风｜纯纯",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -31,7 +31,7 @@
 
     {
       "key": "jisu",
-      "name": "🚀 极速｜纯纯",
+      "name": "🚀极速｜纯纯",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -41,7 +41,7 @@
 
 {
   "key": "专业影音采集",
-  "name": "🎬最大｜影视",
+  "name": "🚀最大｜影视",
   "type": 1,
   "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
   "searchable": 1,
@@ -50,7 +50,7 @@
 },
 {
       "key": "suoni_vod",
-      "name": "🎬索尼｜影视",
+      "name": "🚀索尼｜影视",
       "type": 1,
       "api": "http://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -64,7 +64,7 @@
     },
 {
       "key": "douban_vod",
-      "name": "🎬豆瓣｜影视",
+      "name": "🚀豆瓣｜影视",
       "type": 1,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json",
       "searchable": 1,
@@ -73,6 +73,16 @@
       "ext": {
         "header": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        }
+      }
+    },
+{
+      "name": "🚀极速｜VIP解析",
+      "type": 0,
+      "url": "https://jisuzyjx.com/play/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         }
       }
     },

@@ -119,24 +119,18 @@
       }
     },
 {
-      "key": "wujin_js",
-      "name": "🚀无尽｜JS爬虫",
-      "type": 3,
-      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/Tenderain/omnibox2-js-upload/refs/heads/main/Omnibox2-js/%E6%97%A0%E5%B0%BD%E8%B5%84%E6%BA%90.js",
+      "key": "wujin_vod",
+      "name": "🚀无尽｜官方M3U8",
+      "type": 1,
+      "api": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-    },
-{
-      "key": "wujin_js",
-      "name": "🚀无尽｜JS爬虫(备用线路)",
-      "type": 3,
-      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Tenderain/omnibox2-js-upload/refs/heads/main/Omnibox2-js/%E6%97%A0%E5%B0%BD%E8%B5%84%E6%BA%90.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        }
+      }
     },
 
 

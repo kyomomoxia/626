@@ -50,13 +50,20 @@
 },
 {
       "key": "专业影音采集",
-      "name": "🚀🚀索尼｜影视",
+      "name": "🎬索尼｜影视",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
     },
+
+
 
 {"key":"电影天堂","name":"🧞无广┃[采集]","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"playUrl":"","categories":["短剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","动画片"]},
 

@@ -40,8 +40,8 @@
     },
 
 {
-  "key": "zuida_vod",
-  "name": "🚀🚀最大影视",
+  "key": "专业影音采集",
+  "name": "🚀🚀最大｜影视",
   "type": 1,
   "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
   "searchable": 1,

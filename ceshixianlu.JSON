@@ -119,8 +119,8 @@
       }
     },
 {
-      "key": "wujin_full",
-      "name": "🚀无尽｜全量",
+      "key": "wujin_full_access",
+      "name": "🚀无尽｜全库",
       "type": 1,
       "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -131,7 +131,7 @@
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         }
       }
-    },
+    }
 
 
 

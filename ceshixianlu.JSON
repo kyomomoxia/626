@@ -77,12 +77,16 @@
       }
     },
 {
-      "name": "🚀极速｜VIP解析",
-      "type": 0,
-      "url": "https://jisuzyjx.com/play/?url=",
+      "key": "jisu_m3u8",
+      "name": "🚀极速｜M3U8",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "ext": {
         "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         }
       }
     },

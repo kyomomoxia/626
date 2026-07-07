@@ -49,10 +49,10 @@
   "filterable": 1
 },
 {
-      "key": "专业影音采集",
+      "key": "suoni_vod",
       "name": "🎬索尼｜影视",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,

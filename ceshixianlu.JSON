@@ -120,7 +120,7 @@
     },
 {
       "key": "maotai_vod",
-      "name": "🎬茅台｜影视",
+      "name": "🚀茅台｜影视",
       "type": 1,
       "api": "https://caiji.maotai999.vip/api.php/provide/vod/from/mtm3u8/at/json/",
       "searchable": 1,

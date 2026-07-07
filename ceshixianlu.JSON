@@ -118,40 +118,6 @@
         }
       }
     },
-{
-      "key": "maotai_vod",
-      "name": "🚀茅台｜影视",
-      "type": 1,
-      "api": "https://caiji.maotai999.vip/api.php/provide/vod/from/mtm3u8/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "header": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        }
-      }
-    },
-{
-      "name": "⚡茅台｜商业加速",
-      "type": 0,
-      "url": "https://maotai888.vip:966/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "⚡茅台｜加速备用",
-      "type": 0,
-      "url": "https://www.maotai888.vip:966/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        }
-      }
-    },
 
 
 

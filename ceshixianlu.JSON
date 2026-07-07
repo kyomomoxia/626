@@ -118,6 +118,15 @@
         }
       }
     },
+{
+      "key": "wujin_js",
+      "name": "🚀无尽｜JS爬虫",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/Tenderain/omnibox2-js-upload/refs/heads/main/Omnibox2-js/%E6%97%A0%E5%B0%BD%E8%B5%84%E6%BA%90.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
 
 
 

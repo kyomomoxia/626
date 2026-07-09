@@ -5,7 +5,7 @@
   "warningText": "专业影音提示:\n😀接口长期维护 \n😀接口请勿传播",
 "lives":[
 {"name": "📺默默专属高清", "type": 0, "url": "https://kyomomo.top/myHDlive.txt", "playerType": 1},
-{"name":"📺默默直播","type":0,"url":"https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u","playerType":2},
+{"name":"📺默默直播","type":0,"url":"https://kyomomo.top/molive.txt","playerType":1},
 {"name":"📺日后TV直播","type":0,"url":"http://rihou.cc:555/gggg.nzk"},
 {"name":"📺Kimentanm","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType":2},
 {"name":"📺develop202","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},

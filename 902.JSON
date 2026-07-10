@@ -135,6 +135,11 @@
         "dataIv": "5a9w6x58dsq6z3a6"
       }
     },
+
+{"key":"裤佬极影4K","name":"⌨极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
+{"key":"裤佬枫叶4K","name":"⌨枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
+{"key":"裤佬奈飞4K","name":"⌨奈飞丨4K","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧"]},
+
 {"key":"剧圈99","name":"🎞️剧圈丨APP","type":3,"api":"csp_App99","ext":{"host":"http://124.221.3.182:19987/app/bn","appkey":"d1f0c269eab74d93821fffc9befdbbba","versionName":"1.2.0","name":"剧圈圈","package":"com.qingtangxiaozhuan.xyz","buildNumber":"2002","buildSignature":"054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
 {"key":"双星99","name":"🎞️双星丨APP","type":3,"api":"csp_App99","ext":{"host":"http://175.178.65.250:19987/app/bn","LoginPath":"/app/log","appkey":"f66f65db127e48449f073c2c6eb0f993","versionName":"6.4.5","name":"双子星动漫","package":"com.yingfu.mobile.android.pgsp","buildNumber":"2003","buildSignature":"054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
 {"key":"久久","name":"🎞️久久｜APP","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://99cms.jj99.icu:8199/api.php/app/"},

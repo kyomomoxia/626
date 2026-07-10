@@ -271,6 +271,8 @@
     {"key": "啊哈DJ网","name": "🍳啊哈｜DJ","type": 3,"api": "csp_XBPQ","ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/啊哈DJ.json","jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/98d51d4d95c5cf1b67e74af45cc4445f.jpg;md5;4d860d06ec233dbcb891b76055f099d5"},
     {"key": "采集之王","name": "📚采集｜合集","type": 3,"api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js","ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/采集之王.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json"},
     {"key":"本地","name":"🌸本地｜视频","type":3,"api":"csp_LocalFile"},
+{"key":"裤佬聚合戏曲","name":"💃聚合丨戏曲","type":3,"api":"https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js","ext":"https://iduo.us.ci/gt/leevi0709/one/main/js/戏曲大全.js"},
+{"key":"裤佬糖豆广场舞","name":"💃糖豆丨广场舞","type":1,"api":"https://kk.666888.club/vod/cibn_api.php/provide/vod/","searchable":1,"changeable":1,"quickSearch":0,"filterable":0},
     {"key":"豆瓣3","name":"😀接口长期维护","type":3,"api":"csp_Douban","searchable":0},
     {"key":"豆瓣4","name":"😀接口切勿传播","type":3,"api":"csp_Douban","searchable":0}
   ],

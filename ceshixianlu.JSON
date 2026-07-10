@@ -137,6 +137,12 @@
         "dataIv": "5a9w6x58dsq6z3a6"
       }
     },
+{"key":"裤佬极影4K","name":"👖裤佬丨极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
+{"key":"裤佬枫叶4K","name":"👖裤佬丨枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
+{"key":"裤佬奈飞4K","name":"👖裤佬丨奈飞丨4K","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧"]},
+
+
+
 {"key":"剧圈99","name":"🎞️剧圈丨APP","type":3,"api":"csp_App99","ext":{"host":"http://124.221.3.182:19987/app/bn","appkey":"d1f0c269eab74d93821fffc9befdbbba","versionName":"1.2.0","name":"剧圈圈","package":"com.qingtangxiaozhuan.xyz","buildNumber":"2002","buildSignature":"054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
 {"key":"双星99","name":"🎞️双星丨APP","type":3,"api":"csp_App99","ext":{"host":"http://175.178.65.250:19987/app/bn","LoginPath":"/app/log","appkey":"f66f65db127e48449f073c2c6eb0f993","versionName":"6.4.5","name":"双子星动漫","package":"com.yingfu.mobile.android.pgsp","buildNumber":"2003","buildSignature":"054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
 {"key":"久久","name":"🎞️久久｜APP","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://99cms.jj99.icu:8199/api.php/app/"},
@@ -268,6 +274,8 @@
     {"key": "啊哈DJ网","name": "🍳啊哈｜DJ","type": 3,"api": "csp_XBPQ","ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/啊哈DJ.json","jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/98d51d4d95c5cf1b67e74af45cc4445f.jpg;md5;4d860d06ec233dbcb891b76055f099d5"},
     {"key": "采集之王","name": "📚采集｜合集","type": 3,"api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js","ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/采集之王.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json"},
     {"key":"本地","name":"🌸本地｜视频","type":3,"api":"csp_LocalFile"},
+{"key":"裤佬聚合戏曲","name":"💃聚合丨戏曲","type":3,"api":"https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js","ext":"https://iduo.us.ci/gt/leevi0709/one/main/js/戏曲大全.js"},
+{"key":"裤佬糖豆广场舞","name":"💃糖豆丨广场舞","type":1,"api":"https://kk.666888.club/vod/cibn_api.php/provide/vod/","searchable":1,"changeable":1,"quickSearch":0,"filterable":0},
     {"key":"豆瓣3","name":"😀接口长期维护","type":3,"api":"csp_Douban","searchable":0},
     {"key":"豆瓣4","name":"😀接口切勿传播","type":3,"api":"csp_Douban","searchable":0}
   ],

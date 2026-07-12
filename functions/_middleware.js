@@ -119,7 +119,7 @@ export async function onRequest(context) {
         const diff = currentAbsolute - tokenAbsolute;
 
         if (diff < -1) return false; 
-        if (diff >= 12) return false; 
+        if (diff >= 13) return false; 
 
         return true;
     }

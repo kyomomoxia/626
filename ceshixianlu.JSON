@@ -24,12 +24,10 @@
 {"key":"热播影视","name":"🎬热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
 {"key":"AiJu_PY","name":"🎞️爱剧丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py","ext":"http://43.248.117.123:4680"},
 {"key":"FengYe_PY","name":"🎞️枫叶丨PY直解","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
-{"key":"瓜子2影视","name":"🎬瓜子｜影视","type":3,"api":"csp_Gz360"},
-{"key":"裤佬瓜子备用","name":"🎞️瓜子丨备用","type":3,"api":"https://mpimg.cn/down.php/055f3cda37e9db69ab09a0857e7f9db8.py"},
-{"key":"农民影视","name":"🎬农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
-  
-{"key": "baofeng","name": "🌪️暴风｜纯纯","type": 1,"api": "https://bfzyapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
 {"key": "jisu","name": "🚀极速｜纯纯","type": 1,"api": "https://jszyapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"playUrl": ""},
+{"key":"农民影视","name":"🎬农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
+{"key": "baofeng","name": "🌪️暴风｜纯纯","type": 1,"api": "https://bfzyapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
+
 {"key": "专业影音采集","name": "🚀最大｜影视","type": 1,"api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "suoni_vod","name": "🚀索尼｜影视","type": 1,"api": "http://suoniapi.com/api.php/provide/vod/?ac=list","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}}},
 {"key": "荐片","name": "🎬荐片｜影视","api": "csp_JianPian","type": 3},
@@ -224,7 +222,8 @@
     {"key":"py_文才","name":"🎞️文才｜影视","type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/文才影视.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"site":"https://www.hkybqufgh.com,https://www.sizhengxt.com,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"}},
     {"key":"py_6v","name":"🎞️六微｜影视","type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/6v.py","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"playerType":2},
     {"key":"cat_剧迷网","name":"🎞️剧迷｜影视","type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/高清剧迷.js","style":{"type":"rect","ratio":1},"changeable":1},
-
+    {"key":"瓜子2影视","name":"🎬瓜子｜影视","type":3,"api":"csp_Gz360"},
+    {"key":"裤佬瓜子备用","name":"🎞️瓜子丨备用","type":3,"api":"https://mpimg.cn/down.php/055f3cda37e9db69ab09a0857e7f9db8.py"},
 
     {"key":"裤佬PK体育","name":"⚽PK丨体育","type":4,"api":"http://jiduo.3116598.xyz/PHP/pkty.php"},
     {"key":"多多","name":"⚽多多丨体育","type":3,"jar":"https://file.icve.com.cn/file_doc/356/881/592DC49C783D89DCDE066BF1B72AD0D3.jpg;md5;592dc49c783d89dcde066bf1b72ad0d3","api":"csp_DoubaoGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"}},

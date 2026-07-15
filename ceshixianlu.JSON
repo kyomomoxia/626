@@ -34,6 +34,8 @@
 {"key":"RenRen_JS","name":"🚀人人丨纯净JS","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享双人.js"},
 {"key": "suoni_vod","name": "🚀索尼｜影视","type": 1,"api": "http://suoniapi.com/api.php/provide/vod/?ac=list","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}}},
 {"key": "荐片","name": "🚀荐片｜影视","api": "csp_JianPian","type": 3},
+{"key": "王子","name": "🎞️王子｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://app.95112475.xyz","dataKey": "5a9w6x58dsq6z3a6","dataIv": "5a9w6x58dsq6z3a6"}},
+{"key":"Wawa_PY","name":"🎞️哇哇丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/wawa.py","searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"FengYe_PY","name":"🎞️枫叶丨PY直解","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
 {"key":"裤佬极影4K","name":"⌨极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
@@ -127,19 +129,6 @@
         "dataIv": "huohushipingetap"
       }
     },
-    {
-      "key": "王子",
-      "name": "🎞️王子｜APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://app.95112475.xyz",
-        "dataKey": "5a9w6x58dsq6z3a6",
-        "dataIv": "5a9w6x58dsq6z3a6"
-      }
-    },
 
 
 
@@ -151,7 +140,7 @@
     {"key":"听心99","name":"🎞️听心丨APP","type":3,"api":"csp_App99","ext":{"host":"https://api.12321app.com/api","LoginPath":"/app/log","appkey":"a0a18659a9977a47e53442cd084b536c","versionName":"2.8.1","name":"听心视频","package":"com.iksp.adsys.jjsp","buildNumber":"2001","buildSignature":"03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"}},
  
  
-    {"key":"Wawa_PY","name":"🎞️哇哇丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/wawa.py","searchable":1,"quickSearch":1,"filterable":1},
+ 
     {"key":"MiFun_PY","name":"🎞️米粉丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/MiFunP动漫.py","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"KanJu_PY","name":"🎞️看剧丨App直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/AppToV5.py","ext":"http://43.248.117.123:4680"},
     {"key":"HuaShu_PY","name":"🎞️华数丨PY直解","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/%E5%8D%8E%E6%95%B0.py","changeable":1},

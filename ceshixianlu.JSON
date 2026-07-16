@@ -154,72 +154,6 @@
 
 
 
-{"key":"腾腾视频",
-      "name": "腾腾｜视频",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
-    },
-    {
-      "key": "酷酷视频",
-      "name": "酷酷｜视频",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/YKSP.js"
-    },
-    {
-      "key": "果果视频",
-      "name": "果果｜视频",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/MGSP.js"
-    },
-    {
-      "key": "奇奇视频",
-      "name": "奇奇｜视频",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/AQY.js"
-    },
-  
-    {
-      "key": "裤佬-EmbyJS",
-      "name": "EMBY｜免扫4K",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/40d30fe3d9671e0d700f1c272bb20aaa.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://gitee.com/lujun189/ceshi/raw/master/1/jar/feimao.jar"
-    },
-    {
-      "key": "橘汁",
-      "name": "橘汁｜免扫4K",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.lxf.snzlcgtzxyx",
-        "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "3.0.2.1",
-        "decrypt": "1"
-      },
-      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"
-    },
-    {
-      "key": "三秋影视",
-      "name": "三秋｜免扫4K",
-      "type": 3,
-      "api": "csp_App3Q",
-      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"
-    },
     {
       "key": "橙子99",
       "name": "橙子｜免扫4K",
@@ -237,23 +171,7 @@
       },
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"
     },
-    {
-      "key": "顾我99",
-      "name": "顾我｜免扫4K",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://117.50.200.113:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "040f9b1bc5e942569b5c3e63943306ab",
-        "versionName": "4.3.1",
-        "name": "顾我追剧",
-        "package": "com.guwozhuijux.app",
-        "buildNumber": "2001",
-        "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
-      },
-      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"
-    },
+   
     {
       "key": "葫芦",
       "name": "葫芦｜免扫4K",
@@ -268,13 +186,7 @@
       },
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"
     },
-    {
-      "key": "fy",
-      "name": "枫叶｜免扫4K",
-      "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py",
-      "jar": "https://img2.gelonghui.com/library/e2693-9aa941a0-f96a-40c2-ac23-e6af358d19a7.png"
-    },
+  
     {
       "key": "藤藤",
       "name": "小腾｜免扫4K",
@@ -326,14 +238,7 @@
       },
       "jar": "https://cn.oilgasgpts.com/resource/profile/2026/05/18/NJ4ZWwg7_20260518095827A465.jpg"
     },
-    {
-      "key": "猪猪",
-      "name": "猪猪┃2K",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": "https://snysw.xyz/mf4krxz329.txt|1234567887654321|V119",
-      "jar": "https://cn.oilgasgpts.com/resource/profile/2026/05/18/NJ4ZWwg7_20260518095827A465.jpg"
-    },
+  
 
 
 

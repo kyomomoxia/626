@@ -25,7 +25,6 @@
 {"key":"热播影视","name":"🚀热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
 {"key":"AiJu_PY","name":"🚀爱剧丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py","ext":"http://43.248.117.123:4680"},
 {"key": "jisu","name": "🚀极速｜纯纯","type": 1,"api": "https://jszyapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"playUrl": ""},
-{"key": "橙子99","name": "🚀极速｜成子","type": 3,"api": "csp_App99","ext": {"host": "http://113.31.180.218:19987/app/bn","LoginPath": "/app/log","appkey": "6e8f3764a0644f3686ab5cdd57bcdf48","versionName": "4.3.1","name": "小橙子","package": "com.xchengzix.app","buildNumber": "2001","buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"},"jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"},
 {"key":"农民影视","name":"🚀农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
     {
       "key" : "两个BT",
@@ -230,7 +229,7 @@
     },
 
 
-
+{"key": "橙子99","name": "🎞️极速｜成子","type": 3,"api": "csp_App99","ext": {"host": "http://113.31.180.218:19987/app/bn","LoginPath": "/app/log","appkey": "6e8f3764a0644f3686ab5cdd57bcdf48","versionName": "4.3.1","name": "小橙子","package": "com.xchengzix.app","buildNumber": "2001","buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"},"jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"},
 {"key":"剧圈99","name":"🎞️剧圈丨APP","type":3,"api":"csp_App99","ext":{"host":"http://124.221.3.182:19987/app/bn","appkey":"d1f0c269eab74d93821fffc9befdbbba","versionName":"1.2.0","name":"剧圈圈","package":"com.qingtangxiaozhuan.xyz","buildNumber":"2002","buildSignature":"054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
 {"key":"双星99","name":"🎞️双星丨APP","type":3,"api":"csp_App99","ext":{"host":"http://175.178.65.250:19987/app/bn","LoginPath":"/app/log","appkey":"f66f65db127e48449f073c2c6eb0f993","versionName":"6.4.5","name":"双子星动漫","package":"com.yingfu.mobile.android.pgsp","buildNumber":"2003","buildSignature":"054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
 {"key":"久久","name":"🎞️久久｜APP","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://99cms.jj99.icu:8199/api.php/app/"},

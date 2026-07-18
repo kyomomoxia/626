@@ -1,7 +1,7 @@
 {
   "wallpaper": "https://t.alcy.cc/fj",
   "logo": "http://img.alicdn.com/bao/uploaded/i2/O1CN01o1cUjZ1h03ZzqqW2W_!!2-mytaobao.png",
-  "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b",
+  "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0716/21/c00c29cd6ffb4b40c1b94f69207ecb5e.jpg;md5;c7a619ffb534e64c844dba0a3fe88de5",
   "warningText": "专业影音提示:\n😀接口长期维护 \n😀接口请勿传播",
 "lives":[
 {"name":"📺develop202","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -27,6 +27,13 @@
 {"key": "jisu","name": "🚀极速｜纯纯","type": 1,"api": "https://jszyapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"playUrl": ""},
 {"key": "橙子99","name": "🚀极速｜成子","type": 3,"api": "csp_App99","ext": {"host": "http://113.31.180.218:19987/app/bn","LoginPath": "/app/log","appkey": "6e8f3764a0644f3686ab5cdd57bcdf48","versionName": "4.3.1","name": "小橙子","package": "com.xchengzix.app","buildNumber": "2001","buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"},"jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"},
 {"key":"农民影视","name":"🚀农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
+ {
+      "key" : "大鹅",
+      "name" : "🚀┃影视",
+      "type" : 3,
+      "api" : "csp_App3Q",
+      "ext" : "https://asd123sx23xdacsx.top"
+    },
  {
       "key": "Guazi",
       "name": "🚀瓜子｜3K",
@@ -107,11 +114,11 @@
 {"key": "荐片","name": "🚀荐片｜影视","api": "csp_JianPian","type": 3},
 {"key": "王子","name": "🎞️王子｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://app.95112475.xyz","dataKey": "5a9w6x58dsq6z3a6","dataIv": "5a9w6x58dsq6z3a6"}},
 {"key":"Wawa_PY","name":"🎞️哇哇丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/wawa.py","searchable":1,"quickSearch":1,"filterable":1},
-   {
-      "key": "裤佬枫叶影视",
-      "name": "🎞️枫叶叶丨影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"
+{
+      "key" : "枫叶",
+      "name" : "🎞️枫叶叶丨影视",
+      "type" : 3,
+      "api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"
     },
 {"key":"FengYe_PY","name":"🎞️枫叶丨PY直解","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
 {"key":"裤佬极影4K","name":"⌨极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},

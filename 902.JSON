@@ -19,7 +19,7 @@
     {"key":"夸快夸快","name":"🐷夸快｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
     {"key":"Ali_DuoDuo","name":"🐔多多｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://tv.yydsys.top","https://tv.214521.xyz"]},"timeout":60},
     {"key": "Wogg","name": "🐣丸藕┆4K","type": 3,"api": "csp_Wogg","searchable": 1,"changeable": 1,"filterable": 1,"ext": {"site": ["https://wogg.xxooo.cf","https://woggpan.888484.xyz","https://wogg.333232.xyz","http://woggpan.xxooo.cf","https://www.wogg.one"],"filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"}},
-    {"key": "裤佬体育","name": "⚽世界杯丨直播","type": 1,"api": "https://sports.445569.xyz"},
+
   
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},
 {"key":"热播影视","name":"🚀热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},

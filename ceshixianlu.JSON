@@ -6,8 +6,8 @@
 "lives":[
 {"name": "📺央视直播","type": 0,"playerType": 2,"url": "http://183.131.83.37:40782/屿风眠星辞雾听澜书禾念安知夏遇秋寻冬观月.txt"},
 {"name": "📺地方直播(备用)","type": 0,"playerType": 2,"url": "http://47.120.41.246:8025/vip/jar/zb.php"},
+{"name":"📺默默直播","type":0,"url":"https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u","playerType":2},
 {"name":"📺develop202","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"📺默默直播","type":0,"url":"https://gh-proxy.org/https://github.com/jia070310/lemonTV/blob/main/iptv-fe.m3u","playerType":2},
 {"name":"📺日后TV直播","type":0,"url":"http://rihou.cc:555/gggg.nzk"},
 {"name":"📺Kimentanm","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType":2},
 {"name":"📺轮播","type":0,"url":"https://sub.ottiptv.cc/yylunbo.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.5.0.0"}
@@ -16,12 +16,8 @@
     {"key":"豆瓣2","name":"💖专业影音💖七月未央🌻","type":3,"api":"csp_Douban","searchable":0},
     {"key": "config", "name": "💾配置｜中心","type": 3,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0524/23/bddac79856595d96120f2620c139605d.jpg;md5;ce0e1ac1479b78f120064cc4669f40ae","api": "csp_Config","searchable": 0},
     {"key":"配置中心","name":"💻配置｜中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
-    {"key":"csp_woog","name":"🐮玩欧｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1aa78a7afa85d5ace98c1c57e6123f2c.jpg;md5;d29b7750dc6fc68cfbd5d40b1503d9d0","ext":{"site_urls":["https://woog.nxog.fun","https://woog.nxog.eu.org"],"url_key":"woog","threadinfo":{"chunksize":232,"threads":16}}},
-    {"key":"欧哥","name":"🐴欧歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/0df0dafe840912a9250167063b1f3cad.jpg;md5;dd19c67b72b708f567d94500d7d9ab4e","ext":{"site_urls":["https://ogkk.nxog.fun","https://ogkk.nxog.eu.org"],"url_key":"欧哥","threadinfo":{"chunksize":243,"threads":16}}},
-    {"key":"夸快夸快","name":"🐷夸快｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
-    {"key":"Ali_DuoDuo","name":"🐔多多｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://tv.yydsys.top","https://tv.214521.xyz"]},"timeout":60},
-    {"key": "Wogg","name": "🐣丸藕┆4K","type": 3,"api": "csp_Wogg","searchable": 1,"changeable": 1,"filterable": 1,"ext": {"site": ["https://wogg.xxooo.cf","https://woggpan.888484.xyz","https://wogg.333232.xyz","http://woggpan.xxooo.cf","https://www.wogg.one"],"filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"}},
-    {"key": "裤佬体育","name": "⚽世界杯丨直播","type": 1,"api": "https://sports.445569.xyz"},
+
+
   
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},
 {"key":"热播影视","name":"🚀热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
@@ -378,6 +374,20 @@
     {"key": "七味","name": "💿七味｜磁力","type": 3,"api": "csp_QnMp4","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"}},
     {"key": "电影港","name": "💿电影｜磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XYQHiker/电影港.json"},
     {"key":"咕咕动漫","name":"💿咕咕｜动漫","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://www.gugu3.com","dataKey":"nKfZ8KX6JTNWRzTD","dataIv":"nKfZ8KX6JTNWRzTD","deviceId":"","version":""}},
+
+    
+
+
+    {"key":"csp_woog","name":"🐮玩欧｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1aa78a7afa85d5ace98c1c57e6123f2c.jpg;md5;d29b7750dc6fc68cfbd5d40b1503d9d0","ext":{"site_urls":["https://woog.nxog.fun","https://woog.nxog.eu.org"],"url_key":"woog","threadinfo":{"chunksize":232,"threads":16}}},
+    {"key":"欧哥","name":"🐴欧歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/0df0dafe840912a9250167063b1f3cad.jpg;md5;dd19c67b72b708f567d94500d7d9ab4e","ext":{"site_urls":["https://ogkk.nxog.fun","https://ogkk.nxog.eu.org"],"url_key":"欧哥","threadinfo":{"chunksize":243,"threads":16}}},
+    {"key":"夸快夸快","name":"🐷夸快｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
+    {"key":"Ali_DuoDuo","name":"🐔多多｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://tv.yydsys.top","https://tv.214521.xyz"]},"timeout":60},
+    {"key": "Wogg","name": "🐣丸藕┆4K","type": 3,"api": "csp_Wogg","searchable": 1,"changeable": 1,"filterable": 1,"ext": {"site": ["https://wogg.xxooo.cf","https://woggpan.888484.xyz","https://wogg.333232.xyz","http://woggpan.xxooo.cf","https://www.wogg.one"],"filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"}},
+
+
+
+
+
     {"key":"玩偶","name":"❤玩偶｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://woog.nxog.eu.org","https://woog.nxog.fun","https://ogkk.nxog.de5.net"]},"timeout":60},
     {"key":"蜡笔","name":"❤蜡笔｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["http://xiaocge.fun", "http://feimo.fun", "http://www.labi88.sbs", "http://fmao.site", "http://fmao.shop", "http://xiaocgege.shop"]},"timeout":60},
     {"key":"至臻","name":"❤至臻｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://pan.mihdr.top", "https://zhizhen1.top", "https://mihdr.top", "https://www.mihdr.top", "https://www.miqk.cc", "https://zhizhenpan.com", "https://zhizhen8.click", "https://www.zhizhen8.click"]},"timeout":60},

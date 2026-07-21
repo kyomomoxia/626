@@ -28,8 +28,10 @@
 
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},
 {"key":"热播影视","name":"🚀热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
+{"key":"瓜子2影视","name":"🚀瓜子｜影视","type":3,"api":"csp_Gz360"},
+{"key":"裤佬瓜子备用","name":"🚀瓜子丨备用","type":3,"api":"https://mpimg.cn/down.php/055f3cda37e9db69ab09a0857e7f9db8.py"},
 {"key":"AiJu_PY","name":"🚀爱剧丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py","ext":"http://43.248.117.123:4680"},
-{"key": "Guazi","name": "🚀瓜子｜3K","type": 3,"api": "csp_Guazi","searchable": 1,"jar": "https://media.meilinvps.com/download.php?key=ZTUyMzZhNTEwY2JjNWM0ZGYxNjE1ZDJjMWNlZGZhYjE6ZGExZjQyZjhlNGZmMWNiZTgyN2IwYzMwNTM1Y2FlYzMyZjkwZjE1MDRiOGEwNTAzNmJlYzYzMDFhOGQ3OTRmMzU4NzFjZDEyYWY4YThjOWE1ZjY5NGMxOTA1YWRkNzllMDY5NDc4OTk4ZjFkNDY5NTAxYjNiNmFkYTQxOTg4YTFiMWRlZDM5NDBiNjQ5MDNhMDZlYmQwM2UzNjNiNzNlMg"},
+
 {"key": "jisu","name": "🚀极速｜纯纯","type": 1,"api": "https://jszyapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"playUrl": ""},
 {"key":"农民影视","name":"🚀农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
     {
@@ -118,7 +120,7 @@
 {"key": "荐片","name": "🚀荐片｜影视","api": "csp_JianPian","type": 3},
 {"key": "王子","name": "🎞️王子｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://app.95112475.xyz","dataKey": "5a9w6x58dsq6z3a6","dataIv": "5a9w6x58dsq6z3a6"}},
 {"key":"Wawa_PY","name":"🎞️哇哇丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/wawa.py","searchable":1,"quickSearch":1,"filterable":1},
-
+{"key": "Guazi","name": "🚀瓜子｜3K","type": 3,"api": "csp_Guazi","searchable": 1,"jar": "https://media.meilinvps.com/download.php?key=ZTUyMzZhNTEwY2JjNWM0ZGYxNjE1ZDJjMWNlZGZhYjE6ZGExZjQyZjhlNGZmMWNiZTgyN2IwYzMwNTM1Y2FlYzMyZjkwZjE1MDRiOGEwNTAzNmJlYzYzMDFhOGQ3OTRmMzU4NzFjZDEyYWY4YThjOWE1ZjY5NGMxOTA1YWRkNzllMDY5NDc4OTk4ZjFkNDY5NTAxYjNiNmFkYTQxOTg4YTFiMWRlZDM5NDBiNjQ5MDNhMDZlYmQwM2UzNjNiNzNlMg"},
 
 {"key":"裤佬聚合采集","name":"🐢聚合丨采集","type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js","ext":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/采集之王.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json"},
 {"key":"wsycj","name":"🐢集合丨采集","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧","邵氏电影","演唱会","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","动画片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","女频恋爱","反转爽剧","古装仙侠","年代穿越","脑洞悬疑","现代都市","擦边短剧","漫剧"]},
@@ -339,8 +341,7 @@
     {"key":"py_文才","name":"🎞️文才｜影视","type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/文才影视.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"site":"https://www.hkybqufgh.com,https://www.sizhengxt.com,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"}},
     {"key":"py_6v","name":"🎞️六微｜影视","type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/6v.py","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"playerType":2},
     {"key":"cat_剧迷网","name":"🎞️剧迷｜影视","type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/高清剧迷.js","style":{"type":"rect","ratio":1},"changeable":1},
-    {"key":"瓜子2影视","name":"🎬瓜子｜影视","type":3,"api":"csp_Gz360"},
-    {"key":"裤佬瓜子备用","name":"🎞️瓜子丨备用","type":3,"api":"https://mpimg.cn/down.php/055f3cda37e9db69ab09a0857e7f9db8.py"},
+   
 
     {"key":"裤佬PK体育","name":"⚽PK丨体育","type":4,"api":"http://jiduo.3116598.xyz/PHP/pkty.php"},
     {"key":"多多","name":"⚽多多丨体育","type":3,"jar":"https://file.icve.com.cn/file_doc/356/881/592DC49C783D89DCDE066BF1B72AD0D3.jpg;md5;592dc49c783d89dcde066bf1b72ad0d3","api":"csp_DoubaoGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"}},

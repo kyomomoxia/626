@@ -371,11 +371,72 @@
     
 
 
-    {"key":"csp_woog","name":"🐮玩欧｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1aa78a7afa85d5ace98c1c57e6123f2c.jpg;md5;d29b7750dc6fc68cfbd5d40b1503d9d0","ext":{"site_urls":["https://woog.nxog.fun","https://woog.nxog.eu.org"],"url_key":"woog","threadinfo":{"chunksize":232,"threads":16}}},
-    {"key":"欧哥","name":"🐴欧歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/0df0dafe840912a9250167063b1f3cad.jpg;md5;dd19c67b72b708f567d94500d7d9ab4e","ext":{"site_urls":["https://ogkk.nxog.fun","https://ogkk.nxog.eu.org"],"url_key":"欧哥","threadinfo":{"chunksize":243,"threads":16}}},
-    {"key":"夸快夸快","name":"🐷夸快｜4K","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
+   
     {"key":"Ali_DuoDuo","name":"🐔多多｜真4K原盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://tv.yydsys.top","https://tv.214521.xyz"]},"timeout":60},
     {"key": "Wogg","name": "🐣丸藕┆4K","type": 3,"api": "csp_Wogg","searchable": 1,"changeable": 1,"filterable": 1,"ext": {"site": ["https://wogg.xxooo.cf","https://woggpan.888484.xyz","https://wogg.333232.xyz","http://woggpan.xxooo.cf","https://www.wogg.one"],"filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"}},
+ {
+      "key": "csp_wogg1",
+      "name": "🐮玩欧｜4K弹幕",
+      "type": 3,
+      "changeable": "0",
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0524/23/bddac79856595d96120f2620c139605d.jpg;md5;ce0e1ac1479b78f120064cc4669f40ae",
+      "ext": {
+        "site_urls": [
+          "https://woog.nxog.fun",
+          "https://woog.nxog.eu.org",
+          "https://woog.430520.xyz",
+          "https://woog.装歌.de5.net",
+          "https://ogkk.nxog.fun"
+        ],
+        "url_key": "wogg1",
+        "threadinfo": {
+          "chunksize": 421,
+          "threads": 16
+        }
+      }
+    },
+    {
+      "key": "csp_woog2",
+      "name": "🐴欧歌｜4K弹幕",
+      "type": 3,
+      "changeable": "0",
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0524/23/bddac79856595d96120f2620c139605d.jpg;md5;ce0e1ac1479b78f120064cc4669f40ae",
+      "ext": {
+        "site_urls": [
+          "https://ogkk.nxog.fun",
+          "https://ogkk.nxog.eu.org",
+          "https://ogkk.430520.xyz",
+          "https://ogkk.装歌.de5.net",
+          "https://woog.430520.xyz"
+        ],
+        "url_key": "woog2",
+        "threadinfo": {
+          "chunksize": 500,
+          "threads": 16
+        }
+      }
+    },
+    {
+      "key": "夸快夸快",
+      "name": "🐷夸快｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://ogkk.nxog.eu.org",
+          "https://ogkk.nxog.fun",
+          "https://woog.歌.de5.net"
+        ]
+      }
+    },
 
 
 

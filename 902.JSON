@@ -19,12 +19,14 @@
 
 
 {"key" : "枫叶","name" : "📹叶叶丨4K影视","type" : 3,"api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
-{"key":"FengYe_PY","name":"📹枫叶丨4K直解","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
+{"key": "裤佬枫叶4K","name": "📹枫叶丨4K","type": 3,"api": "https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playable": 1},
+{"key": "山楂","name": "📹山楂丨4K","type": 3,"api": "https://dogpan.com/f/vgJxhA/山楂影视.py","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0},
 {"key":"裤佬极影4K","name":"📹极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
 {"key":"裤佬枫叶4K","name":"📹枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
 {"key":"裤佬奈飞4K","name":"📹奈飞丨4K","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧"]},  
 {"key":"裤佬枫叶影视","name":"📹枫叶丨4K影视","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
-{"key": "裤佬自营PY","name": "📹自营丨4K","type": 3,"api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py","searchable": 1,"changeable": 0,"quickSearch": 0,"filterable": 0},
+{"key" : "大鹅","name" : "📹大娥┃4K影视","type" : 3,"api" : "csp_App3Q","ext" : "https://asd123sx23xdacsx.top"},
+ 
 
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},
 {"key":"热播影视","name":"🚀热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
@@ -38,13 +40,7 @@
       "type" : 3,
       "api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/两个BT.py"
     },
- {
-      "key" : "大鹅",
-      "name" : "🚀大娥┃4K影视",
-      "type" : 3,
-      "api" : "csp_App3Q",
-      "ext" : "https://asd123sx23xdacsx.top"
-    },
+
 
     {
       "key": "csp_Gz360",
@@ -105,6 +101,8 @@
       },
       "jar": "https://cn.oilgasgpts.com/resource/profile/2026/05/18/NJ4ZWwg7_20260518095827A465.jpg"
     },
+
+
 
 {"key": "Wwys","name": "🚀糯米┆影视","type": 3,"api": "csp_Wwys","searchable": 1,"filterable": 1,"changeable": 1,"ext": "https://vip.wwgz.cn:5200"},
 {"key":"农民","name":"🚀农民｜备用","type":3,"api":"csp_XBPQ","jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1275b576ff8340d0f20930745d5ac59c.jpg;md5;4d860d06ec233dbcb891b76055f099d5","ext":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/农民影视.json"},
@@ -216,6 +214,41 @@
         "dataIv": "huohushipingetap"
       }
     },
+
+ {
+      "key": "裤佬6080影视",
+      "name": "🎞️6080丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/583DF6/6080影视.py"
+    },
+
+    {
+      "key": "裤佬V5影视",
+      "name": "🎞️V5丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/98X1c2/V5影视.py",
+      "ext": "http://43.248.117.123:4680"
+    },
+
+    {
+      "key": "裤佬太乙影视",
+      "name": "🎞️太乙丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/MjmESz/太乙影视.py"
+    },
+    {
+      "key": "裤佬多瑙影视",
+      "name": "🎞️多瑙丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/Nxn7Ij/多瑙影视.py"
+    },
+    {
+      "key": "裤佬枝枝影视",
+      "name": "🎞️枝枝丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/O7o5hv/枝枝影视.py"
+    },
+
 
 
 {"key": "橙子99","name": "🎞️极速｜成子","type": 3,"api": "csp_App99","ext": {"host": "http://113.31.180.218:19987/app/bn","LoginPath": "/app/log","appkey": "6e8f3764a0644f3686ab5cdd57bcdf48","versionName": "4.3.1","name": "小橙子","package": "com.xchengzix.app","buildNumber": "2001","buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"},"jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"},

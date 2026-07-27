@@ -28,6 +28,68 @@
 {"key" : "大鹅","name" : "📹大娥┃4K影视","type" : 3,"api" : "csp_App3Q","ext" : "https://asd123sx23xdacsx.top"},
  
 
+ {
+      "key": "裤佬6080影视",
+      "name": "👖裤佬丨6080丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/583DF6/6080影视.py"
+    },
+
+    {
+      "key": "裤佬人人影视",
+      "name": "👖裤佬丨人人丨影视",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享双人.js"
+    },
+    {
+      "key": "裤佬V5影视",
+      "name": "👖裤佬丨V5丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/98X1c2/V5影视.py",
+      "ext": "http://43.248.117.123:4680"
+    },
+  {
+      "key": "裤佬哇哇影视",
+      "name": "👖裤佬丨哇哇丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/k5MoC5/哇哇影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "裤佬太乙影视",
+      "name": "👖裤佬丨太乙丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/MjmESz/太乙影视.py"
+    },
+    {
+      "key": "裤佬多瑙影视",
+      "name": "👖裤佬丨多瑙丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/Nxn7Ij/多瑙影视.py"
+    },
+    {
+      "key": "裤佬枝枝影视",
+      "name": "👖裤佬丨枝枝丨影视",
+      "type": 3,
+      "api": "https://dogpan.com/f/O7o5hv/枝枝影视.py"
+    },
+ {
+      "key": "随机小姐姐",
+      "name": "👖裤佬丨随机丨API",
+      "type": 3,
+      "api": "https://dogpan.com/f/76O4uZ/随机小姐姐.py"
+    },
+
+
+
 
 
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},

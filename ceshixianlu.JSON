@@ -26,6 +26,77 @@
 {"key":"裤佬枫叶影视","name":"📹枫叶丨4K影视","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
 {"key": "裤佬自营PY","name": "📹自营丨4K","type": 3,"api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py","searchable": 1,"changeable": 0,"quickSearch": 0,"filterable": 0},
 
+ {
+      "key": "裤佬极影4K",
+      "name": "👖裤佬丨极影丨4K",
+      "type": 3,
+      "api": "https://dogpan.com/f/MjZntz/4K免扫码.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
+    },
+    {
+      "key": "裤佬爱影4K",
+      "name": "👖裤佬丨爱影丨4K",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js",
+      "ext": {
+        "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt",
+        "key": "nzEqOgYk3QzHuEP8",
+        "init": "V122",
+        "api": 2,
+        "ua": "okhttp/3.10.0"
+      },
+      "categories": [
+        "动漫",
+        "电视剧",
+        "电影",
+        "综艺",
+        "短剧",
+        "体育",
+        "少儿",
+        "纪录片"
+      ]
+    },
+    {
+      "key": "裤佬枫叶4K",
+      "name": "👖裤佬丨枫叶丨4K",
+      "type": 3,
+      "api": "https://dogpan.com/f/O7gjCv/枫叶4K.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playable": 1
+    },
+    {
+      "key": "山楂",
+      "name": "👖裤佬丨山楂丨4K",
+      "type": 3,
+      "api": "https://dogpan.com/f/vgJxhA/山楂影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0
+    },
+    {
+      "key": "裤佬奈飞4K",
+      "name": "👖裤佬丨奈飞丨4K",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "4K电影",
+        "Netflix电影",
+        "Netflix自制剧"
+      ]
+    },
+
+
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},
 {"key":"热播影视","name":"🚀热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
 {"key": "瓜子影视","name": "🚀瓜子｜影视","type": 3,"api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/GZYS.py","changeable": 1},

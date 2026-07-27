@@ -20,22 +20,15 @@
 
 {"key" : "枫叶","name" : "📹叶叶丨4K影视","type" : 3,"api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
 {"key":"FengYe_PY","name":"📹枫叶丨4K直解","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
+{"key": "裤佬枫叶4K","name": "👖裤佬丨枫1叶丨4K","type": 3,"api": "https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playable": 1},
+{"key": "裤佬极影4K","name": "👖裤佬丨极1影丨4K","type": 3,"api": "https://dogpan.com/f/MjZntz/4K免扫码.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://cmsyun2.qijiyun.vip/api.php/app/"},
 {"key":"裤佬极影4K","name":"📹极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
 {"key":"裤佬枫叶4K","name":"📹枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
 {"key":"裤佬奈飞4K","name":"📹奈飞丨4K","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧"]},  
 {"key":"裤佬枫叶影视","name":"📹枫叶丨4K影视","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
 {"key": "裤佬自营PY","name": "📹自营丨4K","type": 3,"api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py","searchable": 1,"changeable": 0,"quickSearch": 0,"filterable": 0},
 
- {
-      "key": "裤佬极影4K",
-      "name": "👖裤佬丨极影丨4K",
-      "type": 3,
-      "api": "https://dogpan.com/f/MjZntz/4K免扫码.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
-    },
+
     {
       "key": "裤佬爱影4K",
       "name": "👖裤佬丨爱影丨4K",
@@ -59,17 +52,7 @@
         "纪录片"
       ]
     },
-    {
-      "key": "裤佬枫叶4K",
-      "name": "👖裤佬丨枫叶丨4K",
-      "type": 3,
-      "api": "https://dogpan.com/f/O7gjCv/枫叶4K.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playable": 1
-    },
+
     {
       "key": "山楂",
       "name": "👖裤佬丨山楂丨4K",

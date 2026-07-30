@@ -36,29 +36,7 @@
       "changeable": 1,
       "filterable": 1
     },
-    {
-      "key": "裤佬爱影4K",
-      "name": "📹爱影丨4K",
-      "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js",
-      "ext": {
-        "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt",
-        "key": "nzEqOgYk3QzHuEP8",
-        "init": "V122",
-        "api": 2,
-        "ua": "okhttp/3.10.0"
-      },
-      "categories": [
-        "动漫",
-        "电视剧",
-        "电影",
-        "综艺",
-        "短剧",
-        "体育",
-        "少儿",
-        "纪录片"
-      ]
-    },
+
 {"key" : "大鹅","name" : "📹大娥┃4K影视","type" : 3,"api" : "csp_App3Q","ext" : "https://asd123sx23xdacsx.top"},
  
 

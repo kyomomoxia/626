@@ -35,8 +35,22 @@
       "filterable": 1,
       "timeout": 60
     },
-
-{"key" : "大鹅","name" : "📹大娥┃4K影视","type" : 3,"api" : "csp_App3Q","ext" : "https://asd123sx23xdacsx.top"},
+   {
+      "key": "大鹅",
+      "name": "💡📹大娥┃影视",
+      "type": 3,
+      "api": "csp_App3Q",
+      "ext": {
+        "host": "https://asd123sx23xdacsx.top",
+        "finger": "SF-C3B2B41F6EFFFF9869176CF68F6790E8F07506FC88632C94B4F5F0430D5498CA",
+        "updateId": "38b0ddfd-9aa3-8e42-5c92-a7fddd3d36e7",
+        "deviceBrand": "vivo",
+        "deviceModel": "V2309A",
+        "pkg": "com.sunshine.tv",
+        "sk": "SK-thanks",
+        "ver": "6"
+      }
+    },
  
 
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},

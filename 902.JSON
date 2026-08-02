@@ -25,7 +25,7 @@
 {"key":"裤佬枫叶4K","name":"📹枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
 {"key":"裤佬奈飞4K","name":"📹奈飞丨4K","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧"]},  
 {"key":"裤佬枫叶影视","name":"📹枫叶丨4K影视","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
-{"key" : "大鹅","name" : "📹大娥┃4K影视","type" : 3,"api" : "csp_App3Q","ext" : "https://asd123sx23xdacsx.top"},
+
  
 
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},
@@ -74,6 +74,7 @@
       },
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"
     },
+{"key" : "大鹅","name" : "🚀大娥┃影视","type" : 3,"api" : "csp_App3Q","ext" : "https://asd123sx23xdacsx.top"},
   
     {
       "key": "藤藤",

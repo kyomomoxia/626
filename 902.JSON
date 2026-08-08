@@ -61,14 +61,14 @@
 
     {
       "key": "飞娱影视",
-      "name": "💡飞娱┃影视",
+      "name": "🚀飞娱┃影视",
       "type": 3,
       "api": "csp_Feiyu"
     },
  
     {
       "key": "马猴影视",
-      "name": "👑马猴丨APP",
+      "name": "🚀马猴丨APP",
       "type": 3,
       "api": "csp_App3Q",
       "ext": {

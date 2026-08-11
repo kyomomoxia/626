@@ -1,8 +1,10 @@
 {
-  "wallpaper": "https://t.alcy.cc/fj",
   "logo": "http://img.alicdn.com/bao/uploaded/i2/O1CN01o1cUjZ1h03ZzqqW2W_!!2-mytaobao.png",
-  "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0801/00/359c60089176c437e74e96d685b8a72e.jpg;md5;182f3ff054e1a255420840f83b553fe4",
+  "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0810/18/07c0fbbe1dd22a9e7e7dd8de6c0fe069.jpg;md5;f7342b99585843601128313270be4dfa",
   "warningText": "专业影音提示:\n😀接口长期维护 \n😀接口请勿传播",
+  "wallpaper": "https://t.alcy.cc/fj",
+  "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
+
 "lives":[
 {"name": "📺央视直播","type": 0,"playerType": 2,"url": "http://183.131.83.37:40782/屿风眠星辞雾听澜书禾念安知夏遇秋寻冬观月.txt"},
 {"name":"📺develop202","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -19,23 +21,11 @@
   {"key": "配置中心","name": "💻配置｜中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.597}},
 
 
-{"key" : "枫叶","name" : "📹叶叶丨4K影视","type" : 3,"api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
-{"key": "裤佬枫叶4K","name": "📹枫叶丨4K","type": 3,"api": "https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playable": 1},
-{"key": "山楂","name": "📹山楂丨4K","type": 3,"api": "https://dogpan.com/f/vgJxhA/山楂影视.py","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0},
-{"key": "不戳","name": "📹不戳｜4K","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://appcmszbc.zbc4k.app","dataKey": "pYrEkiWRYhBLTUTC","dataIv": "pYrEkiWRYhBLTUTC"}},
-{"key":"裤佬极影4K","name":"📹极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
-{"key":"裤佬枫叶4K","name":"📹枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
-{"key": "藤藤","name": "📹小腾｜4K","type": 3,"api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js","ext": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"},
-{"key":"裤佬奈飞4K","name":"📹奈飞丨4K","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧"]},  
-{"key":"裤佬枫叶影视","name":"📹枫叶丨4K影视","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
-{"key": "云朵影视","name": "📹云朵丨4K","type": 3,"api": "csp_App3Q","ext": {"host": "https://ds3xy2yunsa.xyz","finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776","updateId": "175070c3-075c-468b-950a-bf575769f4f1","deviceBrand": "vivo","deviceModel": "V2309A","pkg": "com.tvcloud.io","sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO","ver": "1"}},
-{"key": "山楂影视","name": "📹四楂┃4K","type": 3,"api": "csp_PianKu8"},
-{"key": "移动","name": "📹移动｜4K","type": 3,"api": "csp_Yidong4K","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
- 
-
 {"key":"ReBo_PY","name":"🚀热播丨PY官方","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60},
 {"key":"热播影视","name":"🚀热播｜影视","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
+{"key": "瓜子1影视","name": "🚀花生｜影视","type": 3,"api": "csp_Gz360"},
 {"key": "瓜子影视","name": "🚀瓜子｜影视","type": 3,"api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/GZYS.py","changeable": 1},
+{"key": "移动","name": "📹移动｜4K","type": 3,"api": "csp_Yidong4K","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
 {"key":"农民","name":"🚀农民｜备用","type":3,"api":"csp_XBPQ","jar":"https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1275b576ff8340d0f20930745d5ac59c.jpg;md5;4d860d06ec233dbcb891b76055f099d5","ext":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/农民影视.json"},
 {"key": "jisu","name": "🚀极速｜纯纯","type": 1,"api": "https://jszyapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"playUrl": ""},
 {"key":"农民影视","name":"🚀农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
@@ -108,6 +98,24 @@
       },
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"
     },
+
+
+
+
+{"key" : "枫叶","name" : "📹叶叶丨4K影视","type" : 3,"api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
+{"key": "裤佬枫叶4K","name": "📹枫叶丨4K","type": 3,"api": "https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playable": 1},
+{"key": "山楂","name": "📹山楂丨4K","type": 3,"api": "https://dogpan.com/f/vgJxhA/山楂影视.py","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0},
+{"key": "不戳","name": "📹不戳｜4K","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://appcmszbc.zbc4k.app","dataKey": "pYrEkiWRYhBLTUTC","dataIv": "pYrEkiWRYhBLTUTC"}},
+{"key":"裤佬极影4K","name":"📹极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
+{"key":"裤佬枫叶4K","name":"📹枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
+{"key": "藤藤","name": "📹小腾｜4K","type": 3,"api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js","ext": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"},
+{"key":"裤佬奈飞4K","name":"📹奈飞丨4K","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["4K电影","Netflix电影","Netflix自制剧"]},  
+{"key":"裤佬枫叶影视","name":"📹枫叶丨4K影视","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"},
+{"key": "云朵影视","name": "📹云朵丨4K","type": 3,"api": "csp_App3Q","ext": {"host": "https://ds3xy2yunsa.xyz","finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776","updateId": "175070c3-075c-468b-950a-bf575769f4f1","deviceBrand": "vivo","deviceModel": "V2309A","pkg": "com.tvcloud.io","sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO","ver": "1"}},
+{"key": "山楂影视","name": "📹四楂┃4K","type": 3,"api": "csp_PianKu8"},
+
+
+
 
 
 {"key":"AiJu_PY","name":"🚀爱剧丨PY直连","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py","ext":"http://43.248.117.123:4680"},

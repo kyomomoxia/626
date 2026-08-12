@@ -84,7 +84,9 @@
     {"key": "ok_vod", "name": "🚀OK｜影视", "type": 1, "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}}},
     {"key": "wujin_full_access", "name": "🚀无尽｜全库", "type": 1, "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}}},
    
-   
+       {"key": "豆瓣3", "name": "😀接口长期维护", "type": 3, "api": "csp_Douban", "searchable": 0},
+    {"key": "豆瓣4", "name": "😀接口切勿传播", "type": 3, "api": "csp_Douban", "searchable": 0}
+
 
   ],
   "parses": [

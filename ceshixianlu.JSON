@@ -29,13 +29,7 @@
     {"key": "葫芦", "name": "🚀葫芦｜纯纯", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js", "ext": {"host": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt", "key": "8R33VQSxzmCaHpEX", "init": "V122", "api": 2, "ua": "okhttp/3.10.0"}, "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"},
     {"key": "AiJu_PY", "name": "🚀爱剧丨PY直连", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py", "ext": "http://43.248.117.123:4680"},
     {"key": "baofeng", "name": "🌪️暴风｜纯纯", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1},
-    {"key": "天天", "name": "🚀天天｜影视", "type": 3, "api": "csp_TTian", "playerType": 2, "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E", "ext": "7lj763gg0939791h1l3888jig44gi291li"},
-    {"key": "jisu_m3u8", "name": "🚀极速｜M3U8", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}}},
-    {"key": "专业影音采集", "name": "🚀最大｜影视", "type": 1, "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1},
-    {"key": "电影天堂", "name": "🚀无广┃[采集]", "type": 1, "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0, "playUrl": "", "categories": ["短剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "记录片", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动画片"]},
-    {"key": "RenRen_JS", "name": "🚀人人丨纯净JS", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享双人.js"},
-    {"key": "suoni_vod", "name": "🚀索尼｜影视", "type": 1, "api": "http://suoniapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}}},
-    {"key": "荐片", "name": "🚀荐片｜影视", "api": "csp_JianPian", "type": 3},
+  
   
     {"key": "三六零", "name": "💡三六｜视频", "type": 3, "api": "csp_SP360"},
     {"key": "骚火影视", "name": "💡骚火｜影视", "type": 3, "api": "csp_SaoHuo", "playerType": 2, "ext": "https://shdy5.us"},
@@ -99,16 +93,7 @@
     {"key": "ok_vod", "name": "🚀OK｜影视", "type": 1, "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}}},
     {"key": "wujin_full_access", "name": "🚀无尽｜全库", "type": 1, "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}}},
    
-    {"key": "AiKan_Bot", "name": "🎬爱看｜纯纯", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1},
-    {"key": "SanLiuLing", "name": "🎬三六｜官方", "type": 3, "api": "csp_SP360"},
-    {"key": "New6v_Mag", "name": "🎬新6V｜磁力", "type": 3, "api": "csp_New6v", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.xb6v.com"},
-    {"key": "移动", "name": "🎬移动｜影视", "type": 3, "api": "csp_YDjisu", "searchable": 1, "quickSearch": 1},
-    {"key": "裤佬瓜子备用", "name": "🚀瓜子丨备用", "type": 3, "api": "https://mpimg.cn/down.php/055f3cda37e9db69ab09a0857e7f9db8.py"},
-    {"key": "1905", "name": "🎬1905｜影视", "type": 3, "api": "csp_Web1905", "searchable": 1, "quickSearch": 0, "filterable": 0},
-    {"key": "柠檬", "name": "🎬柠檬｜影视", "type": 3, "api": "csp_Nmvod", "playerType": 2, "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E", "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"},
-    {"key": "裤佬网盘免扫4K", "name": "⭐星星丨纯纯", "type": 3, "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;5588c621bdcf53eb857dc1cec2897a35", "api": "csp_PanTa", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list"}},
-    {"name": "🎞️橘子丨影视", "key": "Woshinidie", "type": 3, "jar": "https://zl.wpscdn.cn/2026/06/01/space_img/8ec1dbc0-101c-410c-bfe1-0b47a2e6d54c.png;md5;76d835a5c630383e9fd851399579220c", "api": "csp_Woshinidie", "searchable": 1, "quickSearch": 1, "changeable": 0, "ext": {"host": "", "version": "3.0.2.1", "abid": "8192", "pkg": "com.lxf.snzlcgtzxyx", "keys": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==,OC1A06E197EF10CF3F6058CA7A803B5E", "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt", "pub": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB"}},
-  
+   
     {"key": "番茄", "name": "🍳番茄｜影视", "type": 3, "api": "csp_XBPQ", "jar": "https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1275b576ff8340d0f20930745d5ac59c.jpg;md5;4d860d06ec233dbcb891b76055f099d5", "ext": {"副标题": "欧歌专属", "请求头": "User-Agent$MOBILE_UA", "编码": "UTF-8", "分类url": "https://www.yirenmeng.com/"}},
     {"key": "小镇", "name": "🍳小镇｜影视", "type": 3, "api": "csp_XBPQ", "jar": "https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1275b576ff8340d0f20930745d5ac59c.jpg;md5;4d860d06ec233dbcb891b76055f099d5", "ext": {"请求头": "User-Agent$MOBILE_UA", "编码": "UTF-8", "分类url": "http://dyxz.tv/"}},
     {"key": "优质", "name": "🍳优质｜影视", "type": 3, "api": "csp_XBPQ", "jar": "https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1275b576ff8340d0f20930745d5ac59c.jpg;md5;4d860d06ec233dbcb891b76055f099d5", "ext": {"副标题": "欧歌专属", "请求头": "User-Agent$MOBILE_UA", "编码": "UTF-8", "分类url": "https://www.myripon.com/"}},

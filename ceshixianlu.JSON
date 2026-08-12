@@ -19,16 +19,7 @@
     {"key": "热播影视", "name": "🚀热播｜影视", "type": 3, "api": "csp_AppRJ", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
     {"key": "瓜子影视", "name": "🚀瓜子｜影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/GZYS.py", "changeable": 1},
     {"key": "农民", "name": "🚀农民｜备用", "type": 3, "api": "csp_XBPQ", "jar": "https://ncstatic-file.clewm.net/rsrc/2025/0916/11/1275b576ff8340d0f20930745d5ac59c.jpg;md5;4d860d06ec233dbcb891b76055f099d5", "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/农民影视.json"},
-    {"key": "jisu", "name": "🚀极速｜纯纯", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "playUrl": ""},
-    {"key": "农民影视", "name": "🚀农民┃影视", "type": 3, "api": "csp_Wwys", "ext": "https://vip.wwgz.cn:5200"},
-    {"key": "两个BT", "name": "🚀两个丨影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/两个BT.py"},
-    {"key": "csp_Gz360", "name": "🚀瓜子┃备用", "type": 3, "timeout": 12, "searchable": 1, "quickSearch": 0, "api": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/GZYS.py", "jar": "https://qn.fqcdn.cn/666666666666666666666666/20260710173636681007-vip.jpg"},
-    {"key": "飞娱影视", "name": "🚀飞娱┃影视", "type": 3, "api": "csp_Feiyu"},
-    {"key": "马猴影视", "name": "🚀马猴丨APP", "type": 3, "api": "csp_App3Q", "ext": {"host": "https://45.150.167.18:8000", "finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F", "updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee", "deviceBrand": "vivo", "deviceModel": "V2309A", "pkg": "com.damahou.tv", "sk": "SK-woniu-thanks", "ver": "1"}},
-    {"key": "爱看剧", "name": "🚀看剧｜纯纯", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/AppToV5.py", "ext": "http://43.248.117.123:4680", "jar": "https://gitee.com/lujun189/ceshi/raw/master/1/jar/feimao.jar"},
-    {"key": "葫芦", "name": "🚀葫芦｜纯纯", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js", "ext": {"host": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt", "key": "8R33VQSxzmCaHpEX", "init": "V122", "api": 2, "ua": "okhttp/3.10.0"}, "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b"},
-    {"key": "AiJu_PY", "name": "🚀爱剧丨PY直连", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py", "ext": "http://43.248.117.123:4680"},
-    {"key": "baofeng", "name": "🌪️暴风｜纯纯", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1},
+   
   
   
     {"key": "三六零", "name": "💡三六｜视频", "type": 3, "api": "csp_SP360"},

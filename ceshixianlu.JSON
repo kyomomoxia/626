@@ -97,7 +97,7 @@
   {"key": "️初中", "name": "🐰初中┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/初中课堂.json"}, "style": {"type": "rect", "ratio": 1.597}},
   {"key": "️高中", "name": "🐰高中┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/高中课堂.json"}, "style": {"type": "rect", "ratio": 1.597}},
   {"key": "编程", "name": "🐰编程┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童编程.json"}, "style": {"type": "rect", "ratio": 1.597}},
-  {"key": "武术", "name": "🐰武术┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童武术.json"}, "style": {"type": "rect", "ratio": 1.597}}   
+  {"key": "武术", "name": "🐰武术┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童武术.json"}, "style": {"type": "rect", "ratio": 1.597}},   
 
 
 
@@ -179,7 +179,8 @@
 
 
 
-
+  {"key": "config","name": "💾配置｜中心","type": 3,"jar": "https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d","api": "csp_Config","searchable": 0},
+  {"key": "配置中心","name": "💻配置｜中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.597}},
 
   {"key": "Ali_DuoDuo", "name": "🐔多多｜真4K原盘", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["https://tv.yydsys.top", "https://tv.214521.xyz"]}, "timeout": 60},
   {"key": "Wogg", "name": "🐣丸藕┆4K", "type": 3, "api": "csp_Wogg", "searchable": 1, "changeable": 1, "filterable": 1, "ext": {"site": ["https://wogg.xxooo.cf", "https://woggpan.888484.xyz", "https://wogg.333232.xyz", "http://woggpan.xxooo.cf", "https://www.wogg.one"], "filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"}},
@@ -197,7 +198,7 @@
   {"key": "阿里云盘", "name": "❤我的｜阿离", "type": 3, "api": "csp_PanAli", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}},
   {"key": "夸克云盘", "name": "❤我的｜夸父", "type": 3, "api": "csp_PanQuark", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}},
   {"key": "UC云盘", "name": "❤我的｜UC", "type": 3, "api": "csp_PanUC", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}},
-  {"key": "百度云盘", "name": "❤我的｜肚盘", "type": 3, "api": "csp_PanBaidu", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}}
+  {"key": "百度云盘", "name": "❤我的｜肚盘", "type": 3, "api": "csp_PanBaidu", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}},
 
 
 

@@ -57,16 +57,47 @@
 
 
 
-  {"key": "移动", "name": "💡移动｜4K", "type": 3, "api": "csp_Yidong4K", "searchable": 1, "quickSearch": 1, "filterable": 1, "timeout": 60},
-  {"key": "枫叶", "name": "🥇枫叶丨4K", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
-  {"key": "三秋影视", "name": "👑三秋丨4K", "type": 3, "api": "csp_App3Q", "ext": {"host": "https://asd123sx23xdacsx.top", "finger": "SF-C3B2B41F6EFFFF9869176CF68F6790E8F07506FC88632C94B4F5F0430D5498CA", "updateId": "38b0ddfd-9aa3-8e42-5c92-a7fddd3d36e7", "deviceBrand": "vivo", "deviceModel": "V2309A", "pkg": "com.sunshine.tv", "sk": "SK-thanks", "ver": "6"}},
-  {"key": "山楂影视", "name": "💡山楂┃4K", "type": 3, "api": "csp_PianKu8"},
-  {"key": "不戳", "name": "👑不戳｜4K", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://appcmszbc.zbc4k.app", "dataKey": "pYrEkiWRYhBLTUTC", "dataIv": "pYrEkiWRYhBLTUTC"}},
-  {"key": "云朵影视", "name": "👑云朵丨APP", "type": 3, "api": "csp_App3Q", "ext": {"host": "https://ds3xy2yunsa.xyz", "finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776", "updateId": "175070c3-075c-468b-950a-bf575769f4f1", "deviceBrand": "vivo", "deviceModel": "V2309A", "pkg": "com.tvcloud.io", "sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO", "ver": "1"}},
+  {"key": "移动", "name": "📹移动｜4K", "type": 3, "api": "csp_Yidong4K", "searchable": 1, "quickSearch": 1, "filterable": 1, "timeout": 60},
+  {"key": "枫叶", "name": "📹枫叶丨4K", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
+  {"key": "三秋影视", "name": "📹三秋丨4K", "type": 3, "api": "csp_App3Q", "ext": {"host": "https://asd123sx23xdacsx.top", "finger": "SF-C3B2B41F6EFFFF9869176CF68F6790E8F07506FC88632C94B4F5F0430D5498CA", "updateId": "38b0ddfd-9aa3-8e42-5c92-a7fddd3d36e7", "deviceBrand": "vivo", "deviceModel": "V2309A", "pkg": "com.sunshine.tv", "sk": "SK-thanks", "ver": "6"}},
+  {"key": "山楂影视", "name": "📹山楂┃4K", "type": 3, "api": "csp_PianKu8"},
+  {"key": "不戳", "name": "📹不戳｜4K", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://appcmszbc.zbc4k.app", "dataKey": "pYrEkiWRYhBLTUTC", "dataIv": "pYrEkiWRYhBLTUTC"}},
+  {"key": "云朵影视", "name": "📹云朵丨4K", "type": 3, "api": "csp_App3Q", "ext": {"host": "https://ds3xy2yunsa.xyz", "finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776", "updateId": "175070c3-075c-468b-950a-bf575769f4f1", "deviceBrand": "vivo", "deviceModel": "V2309A", "pkg": "com.tvcloud.io", "sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO", "ver": "1"}},
+  {"key": "裤佬极影4K", "name": "📹极影丨4K", "type": 3, "api": "https://dogpan.com/f/MjZntz/4K免扫码.js", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"},
+  {"key": "裤佬奈飞4K", "name": "📹奈飞丨4K", "type": 1, "api": "https://api.wsyzy.net/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": ["4K电影", "Netflix电影", "Netflix自制剧"]},
 
 
 
 
+ {"key": "裤佬兔小贝育儿", "name": "🐰兔小贝丨育儿", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/兔小贝.js"},
+  {"key": "Cat_聚合儿歌", "name": "🐰聚合丨儿童", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/erge_juhe.js", "searchable": 1, "quickSearch": 0, "filterable": 1},
+  {"key": "裤佬童趣育儿", "name": "🐰童趣丨育儿", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/童趣.js"},
+  {"key": "哔哩学堂", "name": "🐰学堂┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/学堂教育.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "哔哩少儿", "name": "🐰少儿┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/少儿合集.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "口才", "name": "🐰口才┃儿童", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童口才.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "拼音", "name": "🐰拼音┃儿童", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童拼音.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "识字", "name": "🐰识字┃儿童", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童识字.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "思维", "name": "🐰思维┃儿童", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童思维.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "英语", "name": "🐰英语┃儿童", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童英语.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "科学", "name": "🐰科学┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小灯塔科学.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "国学", "name": "🐰国学┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小灯塔国学.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "地理", "name": "🐰地理┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小灯塔地理.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "魔都资源", "name": "🐰魔都┃动漫", "type": 1, "api": "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1},
+  {"key": "Anime1", "name": "🐰A1 ┃动漫", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/Anime1.js"},
+  {"key": "方舟动漫", "name": "🐰方舟┃动漫", "type": 3, "searchable": 1, "api": "csp_AppGet", "ext": {"url": "https://www.cyfz.top", "dataKey": "e72cdfd629e8895d", "dataIv": "e72cdfd629e8895d"}},
+  {"key": "曼波动漫", "name": "🐰曼波┃动漫", "type": 3, "searchable": 1, "api": "csp_AppGet", "ext": {"url": "https://app.omofun1.top", "dataKey": "66dc309cbeeca454", "dataIv": "66dc309cbeeca454"}},
+  {"key": "巴士动漫", "name": "🐰巴士┃动漫", "type": 3, "api": "csp_XYQHiker", "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/BSDM.json"},
+  {"key": "路漫漫", "name": "🐰路漫漫┃动漫", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/LMM.js"},
+  {"key": "双星99", "name": "🐰双星┃动漫", "type": 3, "api": "csp_App99", "ext": {"host": "http://175.178.65.250:19987/app/bn", "LoginPath": "/app/log", "appkey": "f66f65db127e48449f073c2c6eb0f993", "versionName": "6.4.5", "name": "双子星动漫", "package": "com.yingfu.mobile.android.pgsp", "buildNumber": "2003", "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
+  {"key": "咕咕动漫", "name": "🐰咕咕┃动漫", "type": 3, "searchable": 1, "api": "csp_AppGet", "ext": {"url": "https://www.gugu3.com", "dataKey": "nKfZ8KX6JTNWRzTD", "dataIv": "nKfZ8KX6JTNWRzTD"}},
+  {"key": "哆啦新番社", "name": "🐰哆啦┃新番社", "type": 3, "api": "csp_XBPQ", "style": {"type": "list"}, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/DLXFS.json"},
+  {"key": "Cat_聚合知识", "name": "🐰聚合丨知识", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/zhishi_juhe.js", "searchable": 1, "quickSearch": 0, "filterable": 1},
+  {"key": "哔️软件", "name": "🐰软件┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/软件教程.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "️小学", "name": "🐰小学┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小学课堂.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "️初中", "name": "🐰初中┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/初中课堂.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "️高中", "name": "🐰高中┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/高中课堂.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "编程", "name": "🐰编程┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童编程.json"}, "style": {"type": "rect", "ratio": 1.597}},
+  {"key": "武术", "name": "🐰武术┃哔哩", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt", "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童武术.json"}, "style": {"type": "rect", "ratio": 1.597}}   
 
 
 
@@ -145,6 +176,36 @@
     {"key": "裤佬嘶哩动漫", "name": "🎞️嘶哩丨动漫", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/skapp.py", "ext": {"host": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/api.png", "key": "ygcnbcznazmyrbdn", "iv": "6571230062143708"}},
     {"key": "py_6v", "name": "🎞️六微｜影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/6v.py", "searchable": 1, "changeable": 1, "quickSearch": 1, "filterable": 1, "playerType": 2},
     {"key": "cat_剧迷网", "name": "🎞️剧迷｜影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/高清剧迷.js", "style": {"type": "rect", "ratio": 1}, "changeable": 1},
+
+
+
+
+
+  {"key": "Ali_DuoDuo", "name": "🐔多多｜真4K原盘", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["https://tv.yydsys.top", "https://tv.214521.xyz"]}, "timeout": 60},
+  {"key": "Wogg", "name": "🐣丸藕┆4K", "type": 3, "api": "csp_Wogg", "searchable": 1, "changeable": 1, "filterable": 1, "ext": {"site": ["https://wogg.xxooo.cf", "https://woggpan.888484.xyz", "https://wogg.333232.xyz", "http://woggpan.xxooo.cf", "https://www.wogg.one"], "filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"}},
+  {"key": "csp_wogg1", "name": "🐮玩藕｜4K弹幕", "type": 3, "changeable": "0", "api": "csp_Duopan", "filterable": 1, "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d", "ext": {"site_urls": ["https://woog.nxog.fun", "https://woog.nxog.eu.org", "https://woog.430520.xyz", "https://woog.装歌.de5.net", "https://ogkk.nxog.fun"], "url_key": "wogg1", "threadinfo": {"chunksize": 446, "threads": 16}}},
+  {"key": "csp_woog2", "name": "🐴讴歌｜4K弹幕", "type": 3, "changeable": "0", "api": "csp_Duopan", "filterable": 1, "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d", "ext": {"site_urls": ["https://ogkk.nxog.fun", "https://ogkk.nxog.eu.org", "https://ogkk.430520.xyz", "https://ogkk.装歌.de5.net", "https://woog.430520.xyz"], "url_key": "woog2", "threadinfo": {"chunksize": 503, "threads": 16}}},
+  {"key": "夸快夸快", "name": "🐷夸快｜4K弹幕", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0801/00/359c60089176c437e74e96d685b8a72e.jpg;md5;182f3ff054e1a255420840f83b553fe4", "ext": {"site": ["https://ogkk.nxog.eu.org", "https://ogkk.nxog.fun", "https://woog.歌.de5.net"]}},
+  {"key": "玩偶", "name": "❤玩偶｜4K", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["https://woog.nxog.eu.org", "https://woog.nxog.fun", "https://ogkk.nxog.de5.net"]}, "timeout": 60},
+  {"key": "蜡笔", "name": "❤蜡笔｜4K", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["http://tvpanpan.site", "http://feimo.fun", "http://xiaocgege.shop", "http://www.xiaocgege.shop", "https://www.xiaocge.fun"]}, "timeout": 60},
+  {"key": "至臻", "name": "❤至臻｜4K", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["https://www.zhizhen8.click", "https://www.zhizhen1.top", "https://www.mihdr.top", "https://www.miqk.cc"]}, "timeout": 60},
+  {"key": "多多", "name": "❤多多｜4K", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["https://tv.yydsys.top", "https://tv.yydsys.cc", "https://tv.214521.xyz"]}, "timeout": 60},
+  {"key": "木偶", "name": "❤木偶｜4K", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["https://123.666291.xyz", "https://666.666291.xyz", "https://www.muou.site", "https://www.muou.asia"]}, "timeout": 60},
+  {"key": "虎斑", "name": "❤虎斑｜4K", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["http://xhban.xyz:20720", "http://154.222.27.33:20720"]}, "timeout": 60},
+  {"key": "二小", "name": "❤二小｜4K", "type": 3, "api": "csp_PanWebShare", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "ext": {"site": ["https://www.2xiaopan.top", "https://2xiaopan.top", "https://www.erxiaozhan.top", "https://www.2xiaozhan.top", "https://wexwp.cc"]}, "timeout": 60},
+  {"key": "盘搜", "name": "❤盘搜｜搜索", "type": 3, "api": "csp_PanSou", "searchable": 1, "quickSearch": 0, "filterable": 0, "timeout": 60},
+  {"key": "阿里云盘", "name": "❤我的｜阿离", "type": 3, "api": "csp_PanAli", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}},
+  {"key": "夸克云盘", "name": "❤我的｜夸父", "type": 3, "api": "csp_PanQuark", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}},
+  {"key": "UC云盘", "name": "❤我的｜UC", "type": 3, "api": "csp_PanUC", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}},
+  {"key": "百度云盘", "name": "❤我的｜肚盘", "type": 3, "api": "csp_PanBaidu", "searchable": 0, "filterable": 0, "changeable": 0, "style": {"type": "list", "ratio": 1.433}}
+
+
+
+
+
+
+
+
 
 
 

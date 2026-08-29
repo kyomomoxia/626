@@ -49,6 +49,16 @@
   "filterable": 1,
   "ext": "https://raw.githubusercontent.com/FGBHL/EHR663/refs/heads/main/py/4K影视.py"
 },
+{
+  "key": "4KHDR",
+  "name": "4KHDR[荐]",
+  "type": 3,
+  "api": "csp_Spider", 
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/AndroidSoftwares/box/18283e6e8da1e502c7c66d23af37e071079cdd98/js/4khdr.js"
+},
 {"key":"农民影视","name":"🚀农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
  { "key": "两个BT", "name": "🚀两个丨影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/两个BT.py" },
 {"key":"RenRen_JS","name":"🚀人人丨纯净JS","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享双人.js"},

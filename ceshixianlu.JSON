@@ -50,6 +50,16 @@
   "ext": "https://raw.githubusercontent.com/FGBHL/EHR663/refs/heads/main/py/4K影视.py"
 },
 {
+  "key": "keke_yingshi",
+  "name": "可可影视",
+  "type": 3,
+  "api": "csp_Spider",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://raw.githubusercontent.com/dongbonidhao/drpy-node/a535b4b94ff23a86d810a452a5de3055e14e01f6/spider/js_dr2/%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86%5B%E4%BC%98%5D.js"
+},
+{
   "key": "4KHDR",
   "name": "4KHDR[荐]",
   "type": 3,

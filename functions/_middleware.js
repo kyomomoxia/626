@@ -139,7 +139,7 @@ export async function onRequest(context) {
         "/line3.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=2",
         "/line4.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=4",
         "/line5.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=5",
-        "/line6.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=6",
+        "/line6.json": "http://www.饭太硬.net/tv",
         "/line7.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=8",
         "/line8.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=10",
         "/line9.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=11",

@@ -53,16 +53,18 @@
     {"key": "jszycj", "name": "🐢极速丨采集", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": ["日剧","马泰剧","内地剧","欧美剧","香港剧","韩剧","台湾剧","恐怖片","动画片","剧情片","战争片","动作片","爱情片","喜剧片","科幻片","纪录片","灾难片","悬疑片","犯罪片","奇幻片","中国动漫","日本动漫","欧美动漫","大陆综艺","日韩综艺","港台综艺","欧美综艺","短剧","伦理片","体育赛事","预告片"]},
     {"key": "飞娱影视", "name": "🚀飞娱┃影视", "type": 3, "api": "csp_Feiyu"},
 
-    {"key": "韩圈", "name": "🍌韩圈┃APP", "type": 3, "api": "csp_Hxq"},
-    {"key": "剧圈99", "name": "🍌剧圈┃APP", "type": 3, "api": "csp_App99", "ext": {"host": "http://124.221.3.182:19987/app/bn", "versionName": "1.2.0", "name": "剧圈圈", "package": "com.qingtangxiaozhuan.xyz", "buildNumber": "2002", "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
-    {"key": "半日99", "name": "🍌半日┃APP", "type": 3, "api": "csp_App99", "ext": {"host": "http://103.217.190.91:19987/app/bn", "versionName": "3.5.8", "name": "半日闲", "package": "com.yf.lelian", "buildNumber": "2001", "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"}},
-    {"key": "魔方", "name": "📹魔方┃4K", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://www.douy32mf.top", "dataKey": "1234567887654321", "dataIv": "1234567887654321"}},
+    {"key": "韩圈", "name": "🍌韩圈┃APP", "type": 3, "api": "csp_Hxq", "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/fan.txt"},
+    {"key": "剧圈99", "name": "🍌剧圈┃APP", "type": 3, "api": "csp_App99", "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/fan.txt", "ext": {"host": "http://124.221.3.182:19987/app/bn", "versionName": "1.2.0", "name": "剧圈圈", "package": "com.qingtangxiaozhuan.xyz", "buildNumber": "2002", "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
+    {"key": "半日99", "name": "🍌半日┃APP", "type": 3, "api": "csp_App99", "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/fan.txt", "ext": {"host": "http://103.217.190.91:19987/app/bn", "versionName": "3.5.8", "name": "半日闲", "package": "com.yf.lelian", "buildNumber": "2001", "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"}},
+    {"key": "魔方", "name": "📹魔方┃4K(大概率原站已挂)", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://www.douy32mf.top", "dataKey": "1234567887654321", "dataIv": "1234567887654321"}},
     {"key": "王子", "name": "🍌王仔┃APP", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://app.95112475.xyz", "dataKey": "5a9w6x58dsq6z3a6", "dataIv": "5a9w6x58dsq6z3a6"}},
-    {"key": "py_maple", "name": "📹枫叶┃4K", "type": 3, "api": "./py/maple.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"sitesIndex": 0}},
-    {"key": "py_juzong", "name": "🍌剧踪┃py", "type": 3, "api": "./py/juzong.py", "searchable": 1, "quickSearch": 1, "filterable": 1},
-    {"key": "py_guazi", "name": "🍌呱子┃3K", "type": 3, "api": "./py/guazi.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {}},
-    {"key": "py_qiyoudy", "name": "🍌奇幽┃影视", "type": 3, "api": "./py/qiyoudy.py", "searchable": 1, "quickSearch": 0, "filterable": 1},
-    {"key": "py_4KAV", "name": "📹4K┃阿薇", "type": 3, "api": "./py/4KAV.py", "quickSearch": 1, "searchable": 1, "filterable": 1},
+    {"key": "py_maple", "name": "📹枫叶┃4K", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/XYQ/py/maple.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"sitesIndex": 0}},
+    {"key": "py_juzong", "name": "🍌剧踪┃py", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/XYQ/py/juzong.py", "searchable": 1, "quickSearch": 1, "filterable": 1},
+    {"key": "py_guazi", "name": "🍌呱子┃3K", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/XYQ/py/guazi.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {}},
+    {"key": "py_qiyoudy", "name": "🍌奇幽┃影视", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/XYQ/py/qiyoudy.py", "searchable": 1, "quickSearch": 0, "filterable": 1},
+    {"key": "py_4KAV", "name": "📹4K┃阿薇", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/XYQ/py/4KAV.py", "quickSearch": 1, "searchable": 1, "filterable": 1},
+
+
 
     {"key": "csp_Gz360", "name": "🍓新瓜子┃影视", "type": 3, "api": "csp_Gz360", "searchable": 1, "quickSearch": 1, "filterable": 1},
     {"key": "魔方", "name": "📹4K｜魔方", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://www.douy32mf.top", "dataKey": "1234567887654321", "dataIv": "1234567887654321"}},

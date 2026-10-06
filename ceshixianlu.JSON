@@ -92,6 +92,12 @@
     {"key": "哔幕", "name": "📹哔哩4K", "type": 3, "api": "https://meow.668yun.top/api/s/unDwdM3nZBachMqnrGmG3bQDcvsubkpb/哔哩影视.py"},
     {"key": "裤佬EmbyJS", "name": "📹Emby4K", "type": 3, "api": "https://mpimg.cn/down.php/40d30fe3d9671e0d700f1c272bb20aaa.js", "searchable": 1, "quickSearch": 1, "filterable": 0},
     {"key": "剧下饭", "name": "📹剧下饭4K", "type": 3, "api": "https://mpimg.cn/down.php/ca87da089f336f8e507562ecfe213e25.py"},
+    {
+      "key": "剧下饭",
+      "name": "1剧下饭",
+      "type": 3,
+      "api": "https://mpimg.cn/down.php/ca87da089f336f8e507562ecfe213e25.py"
+    },
     {"key": "还行", "name": "🥭还行", "type": 3, "api": "https://pan.29o.cn/down.php/58019eaac174bc33efa304e43e2898fb.py"},
     {"key": "云播", "name": "🥭云播", "type": 3, "api": "https://pan.29o.cn/down.php/50044f29473ab3d13de5d21fdf224154.py"},
     {"key": "雪落", "name": "🥭雪落", "type": 3, "api": "https://mpimg.cn/down.php/f729b5a1d215a4cbaa147d67f85a410e.py", "searchable": 1, "quickSearch": 1, "filterable": 1},

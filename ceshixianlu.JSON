@@ -2,8 +2,6 @@
   "spider": "https://mpimg.cn/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
   "logo": "https://fanqienovel.com/page/7621843563495558206",
   "lives": [
-   
-   
     {"name": "📺央视直播", "type": 0, "playerType": 2, "url": "http://183.131.83.37:40782/屿风眠星辞雾听澜书禾念安知夏遇秋寻冬观月.txt"},
     {"name": "📺果果直播","type": 3,"url": "https://tv.tmxk.kdns.fr/yplrnuc7","epg":"https://material.1989.click/epg.xml.gz","ua": "okhttp/3.8.1","timeout": 10,"playerType": 2},
     {"name": "📺自定义直播", "type": 1, "url": "https://iptv-zb-zy.pages.dev/output/ipv4/result.m3u"},

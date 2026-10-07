@@ -16,7 +16,7 @@
     {"name": "📺日后TV直播", "type": 0, "url": "http://rihou.cc:555/gggg.nzk"}
   ],
   "sites": [
-    {"key": "豆瓣2", "name": "💖专业影音💖十月揽星⭐", "type": 3, "api": "csp_Douban", "searchable": 0},
+    {"key": "douban", "name": "💖专业影音💖十月揽星⭐", "type": 3, "api": "https://meow.668yun.top/api/s/MMpQwoycF4anEkz5K1ZfMO0mqIDjObj5/豆瓣.js", "searchable": 1, "quickSearch": 1, "filterable": 1},
     {"key": "移动_1", "name": "📹移动｜4K", "type": 3, "api": "csp_Yidong4K", "searchable": 1, "quickSearch": 1, "filterable": 1, "timeout": 60},
     {"key": "热播影视", "name": "🚀热播｜影视", "type": 3, "api": "csp_AppRJ", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
     {"key": "瓜子影视", "name": "🚀瓜子｜影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/GZYS.py", "changeable": 1},
@@ -228,7 +228,6 @@
     {"key": "豆瓣3", "name": "😀接口长期维护", "type": 3, "api": "csp_Douban", "searchable": 0},
     {"key": "豆瓣4", "name": "😀接口切勿传播", "type": 3, "api": "csp_Douban", "searchable": 0},
 
-  {"key": "douban", "name": "豆瓣", "type": 3, "api": "https://meow.668yun.top/api/s/MMpQwoycF4anEkz5K1ZfMO0mqIDjObj5/豆瓣.js", "searchable": 1, "quickSearch": 1, "filterable": 1},
   {"key": "配置中心", "name": "配置中心", "type": 3, "api": "csp_Config", "searchable": 0, "changeable": 0, "indexs": 0, "style": {"type": "rect", "ratio": 1.618}},
   {"key": "弹幕1", "name": "弹幕测试.", "type": 3, "api": "csp_SecureDanmu", "jar": "https://wp.kayyw.com/f/mLbwU9/danmu.jar", "index": 1},
   {"key": "影", "name": "影", "type": 3, "api": "https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py"},

@@ -220,8 +220,7 @@
   {"key": "裤佬聚合戏曲", "name": "💃聚合丨戏曲", "type": 3, "api": "https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js", "ext": "https://iduo.us.ci/gt/leevi0709/one/main/js/戏曲大全.js"},
   {"key": "裤佬糖豆广场舞", "name": "💃糖豆丨广场舞", "type": 1, "api": "https://kk.666888.club/vod/cibn_api.php/provide/vod/", "searchable": 1, "changeable": 1, "quickSearch": 0, "filterable": 0},
   {"key": "TingShijie", "name": "🌍┆听界┆有声", "type": 3, "api": "csp_TingShijie", "searchable": 1, "indexs": 0, "style": {"type": "list"}},
-  {"key": "豆瓣3", "name": "😀接口长期维护", "type": 3, "api": "csp_Douban", "searchable": 0},
-  {"key": "豆瓣4", "name": "😀接口切勿传播", "type": 3, "api": "csp_Douban", "searchable": 0},
+ 
   {"key": "弹幕1", "name": "弹幕测试.", "type": 3, "api": "csp_SecureDanmu", "jar": "https://wp.kayyw.com/f/mLbwU9/danmu.jar", "index": 1},
   {"key": "影", "name": "影", "type": 3, "api": "https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py"},
   {"key": "看剧AI", "name": "看剧AI", "type": 3, "api": "https://mpimg.cn/down.php/f05fb3db58ed6eeb41e2e850f4b09115.py"},
@@ -345,8 +344,9 @@
   {"key": "酷乐搜索", "name": "🔍酷乐｜搜索", "type": 3, "api": "csp_KuLe"},
   {"key": "鬼鬼搜索", "name": "🔍鬼鬼｜搜索", "type": 3, "api": "csp_GuiGui"},
   {"key": "混合", "name": "🔍混合｜搜索", "type": 3, "api": "csp_HunHePan"},
-  {"key": "兄弟", "name": "🔍兄弟｜搜索", "type": 3, "api": "csp_XiongDiPan"}
-
+  {"key": "兄弟", "name": "🔍兄弟｜搜索", "type": 3, "api": "csp_XiongDiPan"},
+  {"key": "豆瓣3", "name": "😀接口长期维护", "type": 3, "api": "csp_Douban", "searchable": 0},
+  {"key": "豆瓣4", "name": "😀接口切勿传播", "type": 3, "api": "csp_Douban", "searchable": 0}
 
   ],
   "parses": [

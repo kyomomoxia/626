@@ -346,36 +346,7 @@
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "gh_py_olelive",
-      "name": "🐍欧乐｜PY免依赖",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/OleLive.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_py_tvbyb",
-      "name": "🐍TVB云播｜PY免依赖",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/TVB云播.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "gh_py_didahd",
-      "name": "🐍嘀嗒｜PY免依赖",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/Didahd.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
+
     {
       "key": "gh_py_hongguo",
       "name": "🐍红果短剧｜PY免依赖",

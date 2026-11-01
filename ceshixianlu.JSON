@@ -222,6 +222,287 @@
       "changeable": 1
     },
    
+    {
+      "key": "gh_py_ncat",
+      "name": "📹网飞猫｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/Ncat.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_didahd",
+      "name": "📹嘀嗒｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/Didahd.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_tvbyb",
+      "name": "📹TVB云播｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/TVB云播.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_huashu_qist",
+      "name": "📹华数｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/华数.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_kkys",
+      "name": "📹可可｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/kkys.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_duboku",
+      "name": "📹独播库｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/独播库.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "gh_py_guazi",
+      "name": "📹瓜子｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/guazi.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_yongle",
+      "name": "📹永乐｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/永乐视频.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "gh_py_4kvm",
+      "name": "📹四影｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/4Kvm.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_gqdb4k",
+      "name": "📹高清点播｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/高清点播4K.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_naikan",
+      "name": "📹耐看｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/耐看.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_shanzha",
+      "name": "📹山楂｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/shanzha.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_duoduo",
+      "name": "📹多多｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/duoduo.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_xueluo",
+      "name": "📹雪落｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/雪落.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_maple",
+      "name": "📹枫叶｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/maple.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_jinpai",
+      "name": "📹金牌｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/金牌影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://www.9zhoukj.com,https://www.jiabaide.cn"
+      }
+    },
+    {
+      "key": "gh_py_wencai",
+      "name": "📹文才｜4K影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/文才影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn"
+      }
+    },
+    {
+      "key": "gh_py_dieka",
+      "name": "📹蝶卡｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/蝶卡影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_changzhang",
+      "name": "📹厂长｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/厂长影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_douhua",
+      "name": "📹豆花｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/豆花影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_rebo",
+      "name": "📹热播｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_wawa",
+      "name": "📹哇哇｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/maoystv/6/main/PY/wawa.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_mifun",
+      "name": "📹米粉动漫｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/maoystv/6/main/PY/MiFunP动漫.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_hongguo",
+      "name": "📹红果短剧｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/红果短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_qixing_dj",
+      "name": "📹七星短剧｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/七星短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_xingya_dj",
+      "name": "📹星芽短剧｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/XYDJ.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+
+    {
+      "key": "gh_py_cctv_zy",
+      "name": "📹央视综艺｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/央视综艺.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "timeout": 60
+    }
    
    
    

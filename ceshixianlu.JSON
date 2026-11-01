@@ -103,41 +103,7 @@
         "欧美动漫"
       ]
     },
-    {
-      "key": "gh_360zy_vod",
-      "name": "⚡360｜直连秒播",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "香港剧",
-        "韩国剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "爽文短剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫"
-      ]
-    },
+  
     {
       "key": "gh_lzi_vod",
       "name": "⚡量子｜直连秒播",
@@ -174,27 +140,7 @@
         "短剧"
       ]
     },
-    {
-      "key": "gh_heimuer_vod",
-      "name": "⚡木耳｜直连秒播",
-      "type": 1,
-      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_wolong_vod",
-      "name": "⚡卧龙｜直连秒播",
-      "type": 1,
-      "api": "https://wolongzyw.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
+   {
       "key": "gh_tyys_vod",
       "name": "⚡天涯｜直连秒播",
       "type": 1,
@@ -225,27 +171,7 @@
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "gh_mozhua_vod",
-      "name": "⚡魔爪｜直连秒播",
-      "type": 1,
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_ikun_vod",
-      "name": "⚡iKun｜直连秒播",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
+  {
       "key": "gh_rycj_vod",
       "name": "⚡如意｜直连秒播",
       "type": 1,
@@ -255,78 +181,7 @@
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "gh_hhzy_vod",
-      "name": "⚡火狐｜直连秒播",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_guangsu_vod",
-      "name": "⚡光速｜直连秒播",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_hongniu_vod",
-      "name": "⚡红牛｜直连秒播",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_uku_vod",
-      "name": "⚡U酷｜直连秒播",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_subo_vod",
-      "name": "⚡速博｜直连秒播",
-      "type": 1,
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_jinchan_vod",
-      "name": "⚡金蝉｜直连秒播",
-      "type": 1,
-      "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "gh_wwdj_vod",
-      "name": "⚡旺旺｜短剧直连",
-      "type": 1,
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
+   {
       "key": "gh_py_ncat",
       "name": "🐍网飞猫｜PY免依赖",
       "type": 3,
@@ -338,7 +193,7 @@
     },
     {
       "key": "gh_py_huayi",
-      "name": "🐍华谊｜PY免依赖",
+      "name": "📹华谊｜4K影视",
       "type": 3,
       "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/华谊影视.py",
       "searchable": 1,
@@ -346,8 +201,7 @@
       "filterable": 1,
       "changeable": 1
     },
-
-    {
+   {
       "key": "gh_py_hongguo",
       "name": "🐍红果短剧｜PY免依赖",
       "type": 3,
@@ -359,7 +213,7 @@
     },
     {
       "key": "gh_py_xpg",
-      "name": "🐍小苹果｜PY免依赖",
+      "name": "📹小苹果｜4K影视",
       "type": 3,
       "api": "https://wget.la/https://raw.githubusercontent.com/maoystv/6/main/PY/分享者小苹果.py",
       "searchable": 1,
@@ -367,61 +221,10 @@
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "gh_py_cz",
-      "name": "🐍厂长｜PY免依赖",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/厂长影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_py_dieka",
-      "name": "🐍蝶卡｜PY免依赖",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/蝶卡影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_py_wencai",
-      "name": "🐍文才｜PY免依赖",
-      "type": 3,
-      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/文才影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn"
-      }
-    },
-    {
-      "key": "gh_js_cupfox",
-      "name": "🦊茶杯狐｜JS免依赖",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "ext": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/js/茶杯狐.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "gh_js_360",
-      "name": "🦊360官源｜JS免依赖",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "ext": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/js/360影视.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
+   
+   
+   
+   
     {
       "key": "移动_1",
       "name": "📹移动｜4K",

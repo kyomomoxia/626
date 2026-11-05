@@ -15,132 +15,21 @@
   ],
   "sites": [
     {"key": "豆瓣2", "name": "💖专业影音💖十月揽星⭐", "type": 3, "api": "csp_Douban", "searchable": 0},
-    {
-      "key": "gh_py_huayi",
-      "name": "📹华谊｜4K影视",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/华谊影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-  {
-      "key": "gh_py_xpg",
-      "name": "📹小苹果｜4K影视",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/maoystv/6/main/PY/分享者小苹果.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gh_py_ncat",
-      "name": "🐍网飞猫｜PY免依赖",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/Ncat.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "gh_py_hongguo",
-      "name": "🐍红果短剧｜PY免依赖",
-      "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/红果短剧.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-
- {
-      "key": "SZ",
-      "name": "🍌山楂 4K影视",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/e02034214f0705bfe1e5f4d936f0925f.py"
-    },
-    {
-      "key": "懂骗",
-      "name": "🍌懂片4K",
-      "type": 3,
-      "api": "https://meow.668yun.top/api/s/ZYpfL0zwfl8JPrvmGZiFxSbVo2T83fWN/懂片.py"
-    },
-    {
-      "key": "影",
-      "name": "🍌影4K",
-      "type": 3,
-      "api": "https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py"
-    },
-    {
-      "key": "橘汁",
-      "name": "🍌橘汁4K",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/9a77fbfdf66962bb95202e05bc5d551f.py"
-    },
-    {
-      "key": "高清点播",
-      "name": "🍌高清点播4K",
-      "type": 3,
-      "api": "https://pan.29o.cn/down.php/323eba3848f29250c407a014113c784a.py"
-    },
-  {
-      "key": "剧下饭",
-      "name": "🍌剧下饭4K",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/ca87da089f336f8e507562ecfe213e25.py"
-    },
-    {
-      "key": "咕噜",
-      "name": "🍌咕噜4K",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/2542f809bfd6602273ad747965ce77f9.py",
-      "searchable": 1
-    },
-  {
-      "key": "4kav",
-      "name": "🍌4kv 4K",
-      "type": 3,
-      "api": "https://pan.szfx.top/down.php/1fa2308fcccbbd9d125344104d9ca158.py"
-    },
-    {
-      "key": "极影",
-      "name": "🍌极影4K",
-      "type": 3,
-      "api": "https://fastlink.cokey.xyz/f/5lO2Fd/%E6%9E%81%E5%BD%B1.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
-    },
- {
-      "key": "分享1",
-      "name": "🍌枫叶4K",
-      "type": 3,
-      "api": "https://fastlink.cokey.xyz/f/nZn3Cm/%E6%9E%AB%E5%8F%B6.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playable": 1
-    },
-    {
-      "key": "我的哔哩",
-      "name": "🍌我的哔哩4K",
-      "type": 3,
-      "api": "https://meow.668yun.top/api/s/d26yObEbm8rr5LbHYgdJg2OsfmN3Skue/我的哔哩影视.py"
-    },
-    {
-      "key": "哔幕",
-      "name": "🍌哔哩4K",
-      "type": 3,
-      "api": "https://meow.668yun.top/api/s/unDwdM3nZBachMqnrGmG3bQDcvsubkpb/哔哩影视.py"
-    },
-
-
-
+    {"key": "gh_py_huayi", "name": "📹华谊｜4K影视", "type": 3, "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/华谊影视.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1},
+    {"key": "gh_py_xpg", "name": "📹小苹果｜4K影视", "type": 3, "api": "https://wget.la/https://raw.githubusercontent.com/maoystv/6/main/PY/分享者小苹果.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1},
+    {"key": "gh_py_ncat", "name": "🐍网飞猫｜PY免依赖", "type": 3, "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/Ncat.py", "searchable": 1, "quickSearch": 1, "filterable": 0, "changeable": 1},
+    {"key": "gh_py_hongguo", "name": "🐍红果短剧｜PY免依赖", "type": 3, "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/红果短剧.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1},
+    {"key": "SZ", "name": "🍌山楂 4K影视", "type": 3, "api": "https://mpimg.cn/down.php/e02034214f0705bfe1e5f4d936f0925f.py"},
+    {"key": "懂骗", "name": "🍌懂片4K", "type": 3, "api": "https://meow.668yun.top/api/s/ZYpfL0zwfl8JPrvmGZiFxSbVo2T83fWN/懂片.py"},
+    {"key": "影", "name": "🍌影4K", "type": 3, "api": "https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py"},
+    {"key": "橘汁", "name": "🍌橘汁4K", "type": 3, "api": "https://mpimg.cn/down.php/9a77fbfdf66962bb95202e05bc5d551f.py"},
+    {"key": "剧下饭", "name": "🍌剧下饭4K", "type": 3, "api": "https://mpimg.cn/down.php/ca87da089f336f8e507562ecfe213e25.py"},
+    {"key": "咕噜", "name": "🍌咕噜4K", "type": 3, "api": "https://mpimg.cn/down.php/2542f809bfd6602273ad747965ce77f9.py", "searchable": 1},
+    {"key": "4kav", "name": "🍌4kv 4K", "type": 3, "api": "https://pan.szfx.top/down.php/1fa2308fcccbbd9d125344104d9ca158.py"},
+    {"key": "极影", "name": "🍌极影4K", "type": 3, "api": "https://fastlink.cokey.xyz/f/5lO2Fd/%E6%9E%81%E5%BD%B1.js", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"},
+    {"key": "分享1", "name": "🍌枫叶4K", "type": 3, "api": "https://fastlink.cokey.xyz/f/nZn3Cm/%E6%9E%AB%E5%8F%B6.js", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "playable": 1},
+    {"key": "我的哔哩", "name": "🍌我的哔哩4K", "type": 3, "api": "https://meow.668yun.top/api/s/d26yObEbm8rr5LbHYgdJg2OsfmN3Skue/我的哔哩影视.py"},
+    {"key": "哔幕", "name": "🍌哔哩4K", "type": 3, "api": "https://meow.668yun.top/api/s/unDwdM3nZBachMqnrGmG3bQDcvsubkpb/哔哩影视.py"},
     {"key": "移动_1", "name": "📹移动｜4K", "type": 3, "api": "csp_Yidong4K", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "timeout": 60},
     {"key": "热播影视", "name": "🚀热播｜影视", "type": 3, "api": "csp_AppRJ", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
     {"key": "瓜子影视", "name": "🚀瓜子｜影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/GZYS.py", "changeable": 1},
@@ -184,21 +73,20 @@
     {"key": "蓝鸟", "name": "🍓蓝鸟｜APP", "type": 3, "api": "csp_AppQi", "searchable": 1, "changeable": 1, "ext": {"site": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt", "dataKey": "oW5UxZ5kWVr1DI69", "dataIv": "oW5UxZ5kWVr1DI69", "init": "initV122", "ua": "okhttp/3.10.0"}},
     {"key": "应该可以", "name": "📹可以4K", "type": 3, "api": "https://fastlink.cokey.xyz/f/AAvgsm/4K%E5%BD%B1%E8%A7%86.py"},
     {"key": "高清点播", "name": "📹清播4K", "type": 3, "api": "https://pan.29o.cn/down.php/323eba3848f29250c407a014113c784a.py"},
-    {"key": "咕噜", "name": "📹咕噜4K", "type": 3, "api": "https://mpimg.cn/down.php/2542f809bfd6602273ad747965ce77f9.py", "searchable": 1},
     {"key": "青麦", "name": "📹青麦4K", "type": 3, "api": "https://mpimg.cn/down.php/ae21421b9e2ae3f513f4518db5ca030c.py"},
     {"key": "歪比巴卜", "name": "📹巴卜4K", "type": 3, "playerType": 2, "api": "https://mpimg.cn/down.php/6f7f933b02ae7a30553c474642e92347.py"},
-    {"key": "极影", "name": "📹极影4K", "type": 3, "api": "https://fastlink.cokey.xyz/f/5lO2Fd/%E6%9E%81%E5%BD%B1.js", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"},
     {"key": "布布", "name": "📹布布4K", "type": 3, "api": "https://pan.szfx.top/down.php/254f42dd986cccf7bec7c7f069ef5346.py", "style": {"type": "rect", "ratio": 1.33}, "changeable": 1},
     {"key": "分享", "name": "📹枫一4K", "type": 3, "api": "https://pan.szfx.top/down.php/b963d79ea0ea6e386515863d823eab89.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "playable": 1},
-    {"key": "哔幕", "name": "📹哔哩4K", "type": 3, "api": "https://meow.668yun.top/api/s/unDwdM3nZBachMqnrGmG3bQDcvsubkpb/哔哩影视.py"},
     {"key": "裤佬EmbyJS", "name": "📹Emby4K", "type": 3, "api": "https://mpimg.cn/down.php/40d30fe3d9671e0d700f1c272bb20aaa.js", "searchable": 1, "quickSearch": 1, "filterable": 0},
-    {"key": "剧下饭", "name": "📹剧下饭4K", "type": 3, "api": "https://mpimg.cn/down.php/ca87da089f336f8e507562ecfe213e25.py"},
     {"key": "还行", "name": "🥭还行", "type": 3, "api": "https://pan.29o.cn/down.php/58019eaac174bc33efa304e43e2898fb.py"},
     {"key": "云播", "name": "🥭云播", "type": 3, "api": "https://pan.29o.cn/down.php/50044f29473ab3d13de5d21fdf224154.py"},
+    {"key": "追剧", "name": "4kvm", "type": 3, "api": "https://mpimg.cn/down.php/dfed1a691e37acdc31b5505f2a6bb1b3.js"},
+    {"key": "西瓜", "name": "西瓜", "type": 3, "api": "https://meow.668yun.top/api/s/Kp2S08TE7dpIwYVKnJWyFPfdioM6FVTw/西瓜官方（有部分 4k）.py"},
+    {"key": "看剧AI", "name": "看剧AI", "type": 3, "api": "https://mpimg.cn/down.php/f05fb3db58ed6eeb41e2e850f4b09115.py"},
+    {"key": "旺旺", "name": "🧿旺旺｜影视", "type": 3, "api": "csp_XBPQ", "jar": "https://wp.kayyw.com/f/bobgtv/%E5%B0%B1%E5%87%A0%E4%B8%AA.jar", "ext": {"副标题": "保护正版，人人有责", "请求头": "User-Agent$MOBILE_UA", "编码": "UTF-8", "分类url": "https://vip.wwgz.cn:5200/"}},
     {"key": "雪落", "name": "🥭雪落", "type": 3, "api": "https://mpimg.cn/down.php/f729b5a1d215a4cbaa147d67f85a410e.py", "searchable": 1, "quickSearch": 1, "filterable": 1},
     {"key": "一个影视", "name": "🥭一个", "type": 3, "api": "https://pan.szfx.top/down.php/a248e40581382b39bd1429fe3edfc19a.js"},
     {"key": "Acfun", "name": "🥭Acfun", "type": 3, "api": "https://fastlink.cokey.xyz/f/XB4Oik/Acfun.py"},
-    {"key": "我的哔哩", "name": "🥭我哩", "type": 3, "api": "https://meow.668yun.top/api/s/d26yObEbm8rr5LbHYgdJg2OsfmN3Skue/我的哔哩影视.py"},
     {"key": "茫1茫", "name": "🥭芒果", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js", "ext": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"},
     {"key": "华数_1", "name": "🥭话数", "type": 3, "api": "https://pan.29o.cn/down.php/10b39f7bc2521aea8a4a091a0d86e2da.py", "changeable": 1},
     {"key": "路漫漫", "name": "🥭路漫", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js", "ext": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/路漫漫.png"},

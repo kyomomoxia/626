@@ -20,13 +20,6 @@
     {"key": "gh_py_ncat", "name": "🐍网飞猫｜PY免依赖", "type": 3, "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/Ncat.py", "searchable": 1, "quickSearch": 1, "filterable": 0, "changeable": 1},
     {"key": "gh_py_hongguo", "name": "🐍红果短剧｜PY免依赖", "type": 3, "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/红果短剧.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1},
     {"key": "SZ", "name": "📹山楂 4K影视", "type": 3, "api": "https://mpimg.cn/down.php/e02034214f0705bfe1e5f4d936f0925f.py"},
-{
-  "key": "红果短剧",
-  "name": "11红果短剧11",
-  "type": 3,
-  "api": "./py/红果短剧.py",
-  "genre": "shortdrama"
-},
     {"key": "懂骗", "name": "📹懂片4K", "type": 3, "api": "https://meow.668yun.top/api/s/ZYpfL0zwfl8JPrvmGZiFxSbVo2T83fWN/懂片.py"},
     {"key": "影", "name": "📹影4K", "type": 3, "api": "https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py"},
     {"key": "橘汁", "name": "📹橘汁4K", "type": 3, "api": "https://mpimg.cn/down.php/9a77fbfdf66962bb95202e05bc5d551f.py"},

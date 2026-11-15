@@ -26,7 +26,7 @@
   "type": 3,
   "api": "./py/红果短剧.py",
   "genre": "shortdrama"
-}
+},
     {"key": "懂骗", "name": "📹懂片4K", "type": 3, "api": "https://meow.668yun.top/api/s/ZYpfL0zwfl8JPrvmGZiFxSbVo2T83fWN/懂片.py"},
     {"key": "影", "name": "📹影4K", "type": 3, "api": "https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py"},
     {"key": "橘汁", "name": "📹橘汁4K", "type": 3, "api": "https://mpimg.cn/down.php/9a77fbfdf66962bb95202e05bc5d551f.py"},

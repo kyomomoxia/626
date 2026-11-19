@@ -16,6 +16,41 @@
   "sites": [
     {"key": "豆瓣2", "name": "💖专业影音💖十月揽星⭐", "type": 3, "api": "csp_Douban", "searchable": 0},
 
+
+{
+      "key": "hg_py_easy888",
+      "name": "📹红果短剧｜Easy直连",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/py/红果短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "hg_py_qist_cf",
+      "name": "📹红果短剧｜CF直连",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/py/红果短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "hg_py_qist_gh",
+      "name": "📹红果短剧｜备用镜像",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/py/红果短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "genre": "shortdrama"
+    },
+
     {
       "key": "gh_py_didahd",
       "name": "⭐嘀嗒｜4K影视",

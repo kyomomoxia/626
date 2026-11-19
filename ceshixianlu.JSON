@@ -18,37 +18,131 @@
 
 
 {
-      "key": "hg_py_easy888",
-      "name": "📹红果短剧｜Easy直连",
+      "key": "dj_py_qixing",
+      "name": "🎭七星短剧｜PY免依赖",
       "type": 3,
-      "api": "https://easy888.dpdns.org/py/红果短剧.py",
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/七星短剧.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "dj_py_xingya",
+      "name": "🎭星芽短剧｜PY免依赖",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/hy5528/tvbox/main/py/XYDJ.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "dj_py_qimao",
+      "name": "🎭七猫短剧｜独立PY",
+      "type": 3,
+      "api": "https://mpimg.cn/down.php/fd932d46caef0995cb0b6936f0413946.py",
+      "jar": "https://mpimg.cn/down.php/c59de26e29fde1eba9fe6b0f79772e8f.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "dj_xbpq_guoguo",
+      "name": "🎭果果短剧｜XBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;cbe016eb3cb002ae62058604843f5106",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
+        "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
+      },
       "genre": "shortdrama"
     },
     {
-      "key": "hg_py_qist_cf",
-      "name": "📹红果短剧｜CF直连",
-      "type": 3,
-      "api": "https://qist.wyfc.qzz.io/py/红果短剧.py",
+      "key": "dj_vod_360",
+      "name": "⚡360短剧｜直连秒播",
+      "type": 1,
+      "api": "https://360zyzz.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "genre": "shortdrama"
+      "categories": [
+        "爽文短剧",
+        "年代穿越",
+        "重生民国",
+        "现代都市",
+        "女频恋爱",
+        "成长逆袭",
+        "古装仙侠"
+      ]
     },
     {
-      "key": "hg_py_qist_gh",
-      "name": "📹红果短剧｜备用镜像",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/py/红果短剧.py",
+      "key": "dj_vod_wsy",
+      "name": "⚡无水印短剧｜直连秒播",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "genre": "shortdrama"
+      "categories": [
+        "爽文短剧",
+        "年代穿越",
+        "反转爽剧",
+        "脑洞悬疑",
+        "现代都市",
+        "女频恋爱",
+        "古装仙侠"
+      ]
+    },
+    {
+      "key": "dj_vod_db",
+      "name": "⚡豆瓣短剧｜直连秒播",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "短剧大全",
+        "反转爽剧",
+        "穿越现代",
+        "重生民国",
+        "现代都市",
+        "言情总裁",
+        "悬疑烧脑",
+        "古装仙侠"
+      ]
+    },
+    {
+      "key": "dj_vod_bf",
+      "name": "⚡暴风短剧｜直连秒播",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "短剧大全",
+        "反转爽文",
+        "穿越年代",
+        "重生民国",
+        "现代言情",
+        "女恋总裁",
+        "都市脑洞",
+        "闪婚离婚",
+        "古装仙侠"
+      ]
     },
 
     {
